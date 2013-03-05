@@ -34,7 +34,7 @@
 		public function __construct() {
 			$this->host      = 'localhost';
 			$this->user      = 'pagpleco_admin';
-			$this->password  = 'Passple__88';
+			$this->password  = 'PagpleAdmin@hotmail.com';
 			$this->database  = 'pagpleco_subscriber';
 		}
 		
