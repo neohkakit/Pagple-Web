@@ -1,0 +1,7 @@
+<div id="email-respond-container">
+<ul>
+	<li><div id="email-respond-icon"></div></li>
+	<li><div id="email-respond-content"><textarea placeholder="Compose your tweet">We want to change the world, but we can't do it alone. Revolutionize with Pagple.</textarea></div></li>
+	<li><div id="email-respond-forward"><button></button></div></li>
+</ul>
+</div>

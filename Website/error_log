@@ -1,0 +1,17 @@
+[25-Jan-2013 02:16:43 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected T_STRING in /home/pagpleco/public_html/email.php on line 63
+[25-Jan-2013 02:17:47 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected T_STRING in /home/pagpleco/public_html/email.php on line 63
+[25-Jan-2013 02:19:45 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected T_STRING in /home/pagpleco/public_html/email.php on line 63
+[25-Jan-2013 02:22:34 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected T_STRING in /home/pagpleco/public_html/email.php on line 63
+[25-Jan-2013 02:26:08 Asia/Kuala_Lumpur] PHP Parse error:  syntax error, unexpected T_STRING in /home/pagpleco/public_html/email.php on line 63
+[25-Jan-2013 03:26:01 Asia/Kuala_Lumpur] PHP Fatal error:  Class 'mysqli_connect' not found in /home/pagpleco/public_html/php/database.php on line 43
+[25-Jan-2013 03:32:14 Asia/Kuala_Lumpur] PHP Fatal error:  Class 'mysqli_connect' not found in /home/pagpleco/public_html/php/database.php on line 40
+[25-Jan-2013 03:36:36 Asia/Kuala_Lumpur] PHP Fatal error:  Class 'mysqli_connect' not found in /home/pagpleco/public_html/php/database.php on line 40
+[25-Jan-2013 03:40:15 Asia/Kuala_Lumpur] PHP Fatal error:  Class 'mysqli_connect' not found in /home/pagpleco/public_html/php/database.php on line 39
+[25-Jan-2013 03:52:44 Asia/Kuala_Lumpur] PHP Fatal error:  Class 'mysqli_connect' not found in /home/pagpleco/public_html/php/database.php on line 44
+[25-Jan-2013 03:56:46 Asia/Kuala_Lumpur] PHP Fatal error:  Class 'mysqli_connect' not found in /home/pagpleco/public_html/php/database.php on line 44
+[25-Jan-2013 03:57:17 Asia/Kuala_Lumpur] PHP Fatal error:  Class 'mysqli_connect' not found in /home/pagpleco/public_html/php/database.php on line 44
+[25-Jan-2013 04:02:04 Asia/Kuala_Lumpur] PHP Fatal error:  Call to undefined function spamcheck() in /home/pagpleco/public_html/email.php on line 39
+[25-Jan-2013 04:02:59 Asia/Kuala_Lumpur] PHP Fatal error:  Class 'mysqli_connect' not found in /home/pagpleco/public_html/php/database.php on line 44
+[25-Jan-2013 04:04:44 Asia/Kuala_Lumpur] PHP Fatal error:  Class 'mysqli_connect' not found in /home/pagpleco/public_html/php/database.php on line 44
+[29-Jan-2013 23:06:39 Asia/Kuala_Lumpur] PHP Fatal error:  Access type for interface method DatabaseTemplate::print_err() must be omitted in /home/pagpleco/public_html/php/database.php on line 12
+[29-Jan-2013 23:10:06 Asia/Kuala_Lumpur] PHP Fatal error:  Access type for interface method DatabaseTemplate::print_err() must be omitted in /home/pagpleco/public_html/php/database.php on line 12
