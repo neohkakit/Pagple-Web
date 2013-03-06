@@ -35,10 +35,7 @@ body {
   padding-bottom: 36px;
 }
 
-#body-content { margin-top:50px; }
-#body-content p { font: 14px "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif; color:#333333; line-height:18px; margin:15px auto; width:800px; }
-#body-content p a { color:#0088CC; text-decoration:none; }
-#body-content p a:hover { text-decoration:underline; }
+
 
 @-moz-document url-prefix() {
   #body-container {
