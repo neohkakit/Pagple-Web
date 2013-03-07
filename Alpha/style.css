@@ -70,12 +70,17 @@ body {
   -ms-transform: translate3d(0, 25%, 0);
   transform: translate3d(0, 25%, 0);
 }
+/* --------
+ *  Button 
+ * --------
+**/
 
 #requestBeta {  
   margin: 0 auto;
   width: 250px;
   height: 50px;
 }
+
 .reqBetaButton {
 
   width: 250px;
