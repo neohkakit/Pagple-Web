@@ -16,8 +16,8 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
 
 /* WRAPPER */
 #body-container {
-    width: 714px;
-    margin: 28px auto;
+    width: 1000px;
+    margin: 45px auto;
 }
 
 /* CONTENT */
@@ -30,7 +30,7 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
     color: #333333;
     line-height: 18px;
     margin: 15px auto;
-    width: 714px;
+    width: 903px;
 }
 
 #body-content p a {
@@ -40,6 +40,7 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
 
 #body-content p a:hover {
     text-decoration: underline;
+
 }
 
 /* NAVIGATION MENU */
@@ -59,8 +60,8 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
 #pagpleNav li { 
   display:block; 
   float:left; 
-  width:140px; 
-  height:28px; 
+  width:180px; 
+  height:40px; 
   background-repeat: no-repeat;
 }
 
@@ -105,7 +106,7 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
 /* Centers logo */
 #pagpleNav li a img {
     vertical-align: middle;
-    margin-top: -7px;
+    margin-top: 0px;
 }
 /* The width of the last menu item (search bar) is bigger than the others */
 
