@@ -1,6 +1,6 @@
 @font-face {
   font-family: MuseoSans;
-  src: url("font/MuseoSans-100.otf") format('opentype');
+  src: url("../font/MuseoSans-100.otf") format('opentype');
 }
 
 /* BASIC RESET */
@@ -44,7 +44,7 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
 
 /* NAVIGATION MENU */
 #pagpleNav {
-  background-image: url("img/Long-black-sleek-bar.png");
+  background-image: url("../img/Long-black-sleek-bar.png");
   background-repeat: no-repeat;
   margin: 40px 0;
   list-style: none;
@@ -66,7 +66,7 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
 
 #pagpleNav li:not(:last-child), li:not(:first-child){
   border-left:1px solid #2f2f2f;
-  background-image: url('img/Long-black-sleek-bar-item.png');
+  background-image: url('../img/Long-black-sleek-bar-item.png');
   border-bottom:1px solid #1f1f1f;
   border-top:1px solid #494949;
 }
@@ -78,7 +78,7 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
   border-left:1px solid #333333; 
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;  
-  background-image: url('img/Long-black-sleek-bar-item.png');
+  background-image: url('../img/Long-black-sleek-bar-item.png');
   border-bottom:1px solid #1f1f1f;
   border-top:1px solid #494949;
  }
@@ -89,7 +89,7 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
   border-right:1px solid #fed741;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;                 
-  background-image: url('img/sign-in.png');
+  background-image: url('../img/sign-in.png');
   border-bottom:1px solid #fed741;
   border-top:1px solid #fed741;
 }
