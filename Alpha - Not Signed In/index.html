@@ -3,7 +3,6 @@ index.html
 Pagple
 Created by Matthias Ryne Cheow on 05/03/13.
 -->
-
 <!doctype html>
 <html>
    
@@ -18,13 +17,12 @@ Created by Matthias Ryne Cheow on 05/03/13.
       <title>Pagple - Reinventing the marketplace user experience</title>
       <!-- CSS LIBRARIES-->
       <link rel="icon" href="ico/favicon1.png" sizes="16x16">
-      <link rel="stylesheet" href="css/ui-darkness/jquery-ui-1.10.1.custom.css">
+      <link rel="stylesheet" href="css/pagple/pagple.css">
       <!-- JQUERY LIBRARIES-->
       <script type="text/javascript" src="js/lib/jquery.js"></script>
       <script type="text/javascript" src="js/lib/jquery-ui.js"></script>
       <script type="text/javascript" src="js/lib/jquery-ui-min.js"></script>
       <script type="text/javascript" src="js/lib/jquery.validate.js"></script>
-      
       <link rel="stylesheet" href="css/main-style.css">
       <link rel="stylesheet" href="css/pagpleMainNav.css">
       <script type="text/javascript" src="js/sign-in-form.js"></script>
@@ -92,8 +90,20 @@ Created by Matthias Ryne Cheow on 05/03/13.
             <br/>
             <br/>
             <div id="requestBeta">
-               <button class="reqBetaButton">Request Beta</button>
+               <button id="reqBetaButton">Request Beta</button>
             </div>
+         </div>
+         <div id="sign-in-form" title="Request Beta" style="resize: none;">
+            <p class="validateTips">All form fields are required.</p><br/>
+            <form>
+               <fieldset>
+                  <label for="username">Username</label>
+                  <input type="text" name="username" id="username" class="text ui-widget-content ui-corner-all" />
+                  <br/>
+                  <label for="email">Email</label>
+                  <input type="text" name="email" id="email" value="" class="text ui-widget-content ui-corner-all" />
+               </fieldset>
+            </form>
          </div>
          <!-- Footer -->
          <footer>
