@@ -1,3 +1,9 @@
+//    sign-in-form.js
+//    Pagple
+//
+//    Created by Matthias Ryne Cheow on 05/03/13.
+//
+
 $(function () {
    var username = $("#username"),
       email = $("#email"),
