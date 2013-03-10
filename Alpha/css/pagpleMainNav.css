@@ -3,11 +3,7 @@
 **
 **    Created by Matthias Ryne Cheow on 05/03/13.
 */
-
-@font-face {
-  font-family: MuseoSans;
-  src: url("../font/MuseoSans-100.otf") format('opentype');
-}
+@import url('font.css');
 
 /* BASIC RESET */
 ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
