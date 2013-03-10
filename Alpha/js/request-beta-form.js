@@ -40,7 +40,7 @@ $(function() {
       }
     }
  
-    $( "#sign-in-form" ).dialog({
+    $( "#request-beta-form" ).dialog({
       autoOpen: false,
       height: 360,
       width: 610,
@@ -73,7 +73,7 @@ $(function() {
     $( "#reqBetaButton" )
       .button()
       .click(function() {
-        $( "#sign-in-form" ).dialog( "open" );
+        $( "#request-beta-form" ).dialog( "open" );
       });
 
       $("#sign-in-form").resizable('disable').removeClass('ui-state-disabled');
