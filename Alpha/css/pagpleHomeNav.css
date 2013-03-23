@@ -1,0 +1,133 @@
+/*    pagpleMainNav.css
+**    Pagple
+**
+**    Created by Matthias Ryne Cheow on 05/03/13.
+*/
+@import url('font.css');
+
+/* BASIC RESET */
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input,nav {
+  margin: 0;
+  padding: 0;
+}
+
+/* COMMON CLASSES */
+.break {
+  clear: both;
+}
+
+nav{
+ width: 91%;
+ text-align:center;
+  margin: 0 auto;
+}
+/* WRAPPER */
+#body-container {
+  width: 1000px;
+  margin: 45px auto;
+}
+
+/* CONTENT */
+#body-content {
+  margin-top: 50px;
+}
+
+#body-content p {
+  font: 14px  Helvetica, MuseoSans, "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+  color: #333333;
+  line-height: 18px;
+  margin: 15px auto;
+  width: 903px;
+}
+
+#body-content p a {
+  color: #0088CC;
+  text-decoration: none;
+}
+
+#body-content p a:hover {
+  text-decoration: underline;
+}
+
+/* NAVIGATION MENU */
+#pagpleNav {
+  /*background-image: url("../img/Long-black-sleek-bar.png");*/
+  background-repeat: no-repeat;
+		margin: 0 auto;
+  list-style: none;
+  font-family: MuseoSans;
+  letter-spacing: -0.5px;
+  font-size: 13px;
+  /* Apply a subtle text-shadow to the text */
+  text-shadow: 0 -1px 3px #202020;
+}
+
+#pagpleNav li { 
+  display:block; 
+  float:left; 
+  width:180px; 
+  height:40px; 
+  background-repeat: no-repeat;
+}
+
+#pagpleNav li:not(:last-child), li:not(:first-child){
+  border-left:1px solid #2f2f2f;
+  background-image: url('../img/Long-black-sleek-bar-item.png');
+  border-bottom:1px solid #1f1f1f;
+  border-top:1px solid #494949;
+}
+
+ #pagpleNav li:first-child {
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomleft: 5px;                
+  border-left:1px solid #333333; 
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;  
+  background-image: url('../img/Long-black-sleek-bar-item.png');
+  border-bottom:1px solid #1f1f1f;
+  border-top:1px solid #494949;
+ }
+
+ #pagpleNav li:last-child{                                
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;                
+  border-right:1px solid #333333;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;                 
+  background-image: url('../img/Long-black-sleek-bar-item.png');
+  border-bottom:1px solid #1f1f1f;
+  border-top:1px solid #494949;
+}
+
+#pagpleNav li a { 
+  color:white; 
+  text-decoration:none;
+  text-align:center;
+  display:block;
+  line-height:34px; 
+  outline:none;
+}
+
+/* Centers logo */
+#pagpleNav li a img {
+  vertical-align: middle;
+  margin-top: 0px;
+}
+/* The width of the last menu item (search bar) is bigger than the others */
+
+/* Fade in animation (Webkit only) */
+@-webkit-keyframes showMenu { 
+  from{
+    opacity: 0;
+    top: -20px;
+  }
+  to{  
+    opacity: 1 
+  }
+}
+
+#pagpleNav{
+   -webkit-animation: showMenu 1s;
+   position: relative;
+   overflow: hidden;
+}
