@@ -136,7 +136,8 @@ footer{
      vertical-align: middle;
   margin-top: 0px;
   }
-#twindivcontainer{
+
+#twincontainer{
     height:300px;
   width: 90%;
    margin: 0 auto;
@@ -153,4 +154,11 @@ footer{
     height:300px;
     float:right;
     background:rgb(233,233,233);
+  }
+
+  #container{
+    background:rgb(133,133,133);
+        height:600px;
+  width: 90%;
+   margin: 0 auto;
   }
