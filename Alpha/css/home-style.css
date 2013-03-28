@@ -136,3 +136,21 @@ footer{
      vertical-align: middle;
   margin-top: 0px;
   }
+#twindivcontainer{
+    height:300px;
+  width: 90%;
+   margin: 0 auto;
+}
+  #twindivleft{
+    width:49%;
+    height:300px;
+    float:left;
+    background:rgb(10,10,10);
+  }
+
+  #twindivright{
+    width:49%;
+    height:300px;
+    float:right;
+    background:rgb(233,233,233);
+  }
