@@ -5,7 +5,6 @@
 */
 @import url('font.css');
 @charset "utf-8";
-
 /* HTML ELEMENTS */
 #welcomeTextHeader {
   font-family: Helvetica,Sintony, Arial, MuseoSans, "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
@@ -23,36 +22,46 @@
   font-size: 36px;
   /*letter-spacing: -1px;*/
 }
+
 body,
 html {
   width: 100%;
   height: 100%;
   font-family: Helvetica;
 }
-
 hr {
-   display: block;
-   position: relative;
-   padding: 0;
-   margin: 8px auto;
-   height: 0;
-   width: 91%;
-   max-height: 0;
-   font-size: 1px;
-   line-height: 0;
-   clear: both;
-   border: none;
-   align:center;
-   border-top: 1px solid #aaaaaa;
-   border-bottom: 1px solid #ffffff;
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 8px auto;
+  height: 0;
+  width: 91%;
+  max-height: 0;
+  font-size: 1px;
+  line-height: 0;
+  clear: both;
+  border: none;
+  align: center;
+  border-top: 1px solid #aaaaaa;
+  border-bottom: 1px solid #ffffff;
 }
-
-fieldset { padding:0; border:0; margin-top:25px; }
-.ui-dialog .ui-state-error { padding: .3em; }
-.validateTips { border: 1px solid transparent; padding: 0.3em; }
-label, input { display:block; }
-input.text { margin-bottom:12px; width:90%; padding: .4em; }
-
+fieldset {
+  padding: 0;
+  border: 0;
+  margin-top: 25px;
+}
+.ui-dialog .ui-state-error {  padding: .3em }
+.validateTips {
+  border: 1px solid transparent;
+  padding: 0.3em;
+}
+label,
+input {  display: block }
+input.text {
+  margin-bottom: 12px;
+  width: 90%;
+  padding: .4em;
+}
 body {
   background-image: url('../img/bg/whitewall.png');
   background-repeat: repeat;
@@ -72,15 +81,12 @@ body {
  *  Button 
  * --------
 **/
-
-#requestBeta {  
+#requestBeta {
   margin: 0 auto;
   width: 250px;
   height: 50px;
 }
-
 #reqBetaButton {
-
   width: 250px;
   height: 50px;
   font-family: Arial, MuseoSans, "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
@@ -94,12 +100,11 @@ body {
   background: -moz-linear-gradient(top,  #fede46,  #fda014);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fede46', endColorstr='#fda014');
 }
-
 #reqBetaButton:hover {
   background: #f78d1d;
   background: -webkit-gradient(linear, left top, left bottom, from(#fda014), to(#fede46));
   background: -moz-linear-gradient(top,  #fda014,  #fede46);
-  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#fda014', endColorstr='#fede46');
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fda014', endColorstr='#fede46');
 }
 /* --------
  *  Slogan 
@@ -117,86 +122,98 @@ body {
   margin-top: 5%;
   text-align: center;
 }
-#infobar{
-	width: 90%;
-   margin: 0 auto;
-   
-}
-
-footer{
- width:900px;
- margin: 0 auto;
- }
- 
- footer div{
- margin: 0 auto;
- }
- 
- footer div a img{
-     vertical-align: middle;
-  margin-top: 0px;
-  }
-
-#twincontainer{
-    height:300px;
+#infobar {
   width: 90%;
-   margin: 0 auto;
+  margin: 0 auto;
 }
-  #twindivleft{
-    width:49%;
-    height:300px;
-    float:left;
-    background:rgb(10,10,10);
-  }
+footer {
+  width: 900px;
+  margin: 0 auto;
+}
+footer div {  margin: 0 auto }
+footer div a img {
+  vertical-align: middle;
+  margin-top: 0px;
+}
+#twincontainer {
+  height: 335px;
+  width: 90%;
+  margin: 0 auto;
+}
+#twindivleft {
+  background-repeat:no-repeat;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  width: 49%;
+  height: 335px;
+  float: left;
+  background: rgb(10,10,10);
+  position: relative;
+}
+#twindivright {
+  background-repeat:no-repeat;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  width: 49%;
+  height: 335px;
+  float: right;
+  background: rgb(233,233,233);
+  position: relative;
+}
+#container {
+  background-repeat:no-repeat;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  background: rgb(133,133,133);
+  height: 670px;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
 
-  #twindivright{
-    width:49%;
-    height:300px;
-    float:right;
-    background:rgb(233,233,233);
-  }
+#container img,#twindivright img,#twindivleft img {
+display: block;
+max-width: 100%;
+max-height: 95%;
+margin: auto;
+}
 
-  #container{
-    background:rgb(133,133,133);
-    height:600px;
-    width: 90%;
-   margin: 0 auto;
-  }
-
-a{
+a {
   text-decoration: none;
   font-family : Helvetica;
-  color:rgb(150,150,150);
+  color: rgb(150,150,150);
 }
-
-#btmStatusDiv{
-  width:100%;
-  height:30px;
-  background:rgb(255,255,255);
-  position:relative;
-  top:90% ;
+#btmStatusDiv {
+  width: 100%;
+  height: 30px;
+  background: rgb(255,255,255);
+  position: absolute;
+  bottom: 0;
 }
-
-#btmStatusContainer{
-  width:100%;
-  height:30px;
-  background:rgb(255,255,255);
-  position:relative;
-  top:95% ;
+#btmStatusContainer {
+  width: 100%;
+  height: 30px;
+  background: rgb(255,255,255);
+  position: absolute;
+  bottom: 0;
 }
-
-#btmStatusTable{
-    border:none;
-    width:100%;
-    font-family: Helvetica;
+#btmStatusTable {
+  border: none;
+  width: 100%;
+  font-family: Helvetica;
 }
-
-.tableHeight{
-  height:30px;
-}
-
-#btmStatusText{
-  padding-left:5px;
-  padding-right:5px;
-  padding-top:5px;
+.tableHeight {  height: 30px }
+#btmStatusText {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
 }
