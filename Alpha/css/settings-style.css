@@ -135,3 +135,31 @@ footer div a img {
   vertical-align: middle;
   margin-top: 0px;
 }
+
+#settings-container{
+      border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  background-color:#1f1f1f;
+  width:90%;
+  height:580px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 3px #000000;
+  /*position: relative;*/
+}
+
+#container-header{  
+    border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  width:100%;
+  height:71px;
+    position: relative;
+    background: #6cab26;
+background-image: url('../img/bg/debutdark.png'); /* fallback */
+  background-repeat: repeat;
+  /*border-bottom:3px ridge #000000;*/
+  box-shadow: 2px 2px 3px #000000;
+}
