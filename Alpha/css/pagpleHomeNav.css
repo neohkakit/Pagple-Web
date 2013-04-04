@@ -131,3 +131,21 @@ nav{
    position: relative;
    overflow: hidden;
 }
+
+#profileDiv{
+  width: 100%;
+}
+
+#notiffication{
+    width: 25px;
+    height: 25px;
+    color: rgb(255,255,255);
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(255,0,0);
+    display: inline-block;
+}
+
+#profileName{
+  color: rgb(255,255,255);
+}
