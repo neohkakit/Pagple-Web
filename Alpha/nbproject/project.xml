@@ -5,5 +5,11 @@
         <data xmlns="http://www.netbeans.org/ns/clientside-project/1">
             <name>Alpha</name>
         </data>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>Cheow</word>
+            <word>html</word>
+            <word>Pagple</word>
+            <word>Ryne</word>
+        </spellchecker-wordlist>
     </configuration>
 </project>
