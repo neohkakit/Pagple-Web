@@ -78,15 +78,125 @@ Created by Matthias Ryne Cheow on 05/03/13.
                 	<span id='headertext'>Account</span>
                 	<span id='desctext'>Change your account settings here</span>
                 </div>
-                <div id="personal-detail-container">
-                    
-                </div>
-                <div id="password-container">
-                    
-                </div>
-                <div id="misc-container">
-                    
-                </div>
+                <form>
+                    <div id="personal-detail-container">
+                        <div id="div-wrap">
+                            <div id="profile-picture">
+                                <span style="font-size:20px;">Picture</span>
+                                <br />
+                                <img id ="profile-img" src="img/profilePic.png" alt="" />
+                                <br />
+                                <input type="file" name="pic" />
+                                <span style="font-size:15px">File allowed: JPG or PNG </span>
+                            </div>
+                            <div id="personal-detail">
+                                <table id="tableProfile">
+                                    <tr>
+                                        <td width="30%">
+                                            <span>Username</span>
+                                        </td>
+                                        <td>
+                                            <span style="color:#ffffff;">Neoh Ka Kit</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span>First name</span>
+                                        </td>
+                                        <td>
+                                            <input type="text" id="firstname" size="35"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span>Last name</span>
+                                        </td>
+                                        <td>
+                                            <input type="text" id="lastname" size="35"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span>Email</span>
+                                        </td>
+                                        <td>
+                                            <input type="text" id="email" size="35"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span>Website</span>
+                                        </td>
+                                        <td>
+                                            <input type="text" id="website" size="35"/>
+                                            <span style="font-size:12px;">Your blogshop or company site, e.g http://pagple.com</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span>Location</span>
+                                        </td>
+                                        <td>
+                                            <input type="text" id="location" size="35"/>
+                                            <span style="font-size:12px;">Notify COD or Postage services venue</span>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <hr id="div-hr">  
+                    </div>
+
+                    <div id="password-container">
+                        <div id="div-wrap">
+                            <span style="font-size:20px;">Change Password</span>
+                            <table id="tableProfile">
+                                <tr>
+                                    <td>
+                                        <span>New Password </span>
+                                    </td>
+                                    <td>
+                                        <input type="text" id="newPass" size="35"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span>New Password </span><br /><span> Confirmation</span>
+                                    </td>
+                                    <td>
+                                         <input type="text" id="confirmPass" size="35"/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <hr id="div-hr">
+                    </div>
+                    <div id="misc-container">
+                        <div id="div-wrap">
+                            <table>
+                                <tr>
+                                    <td width="40%">
+                                    <span style="font-size:20px;">Language</span>
+                                    </td>
+                                    <td>
+                                        <div id="styled-select">
+                                        <select>
+                                            <option>
+                                                <span>English </span>
+                                            </option>
+                                        </select>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br />
+                            <br />
+                            <div align='center'>
+                                <input type="button" id="submit"value="Save"/>
+                        </div>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
         <footer>
