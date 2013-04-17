@@ -88,12 +88,12 @@ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
  #pagpleNav li:last-child{                                
   -moz-border-radius-topright: 5px;
   -moz-border-radius-bottomright: 5px;                
-  border-right:1px solid #fed741;
+  border-right:1px solid #333333;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;                 
   background-image: url('../img/sign-in.png');
-  border-bottom:1px solid #fed741;
-  border-top:1px solid #fed741;
+  border-bottom:1px solid #1f1f1f;
+  border-top:1px solid #494949;
 }
 #pagpleNav li a { 
   color:white; 
