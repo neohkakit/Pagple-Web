@@ -8,7 +8,7 @@
 
 /* HTML ELEMENTS */
 #welcomeTextHeader {
-  font-family: Sintony, Arial, MuseoSans, "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+  font-family: Arial, MuseoSans, "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
   font-weight: 700;
   text-align: left;
   color: #ffffff;
@@ -20,7 +20,7 @@
   font-weight: lighter;
   text-align: left;
   color: #ffffff;
-  font-size: 36px;
+  font-size: 30px;
   /*letter-spacing: -1px;*/
 }
 body,
@@ -69,12 +69,16 @@ body {
   font-weight: 700;
   text-align: center;
   color: #333333;
-  font-size: 25px;
-  border: solid 2px #442f36;
+  font-size: 26px;
+  border: solid 1.5px #442f36;
   background: #f78d1d;
   background: -webkit-gradient(linear, left top, left bottom, from(#fede46), to(#fda014));
   background: -moz-linear-gradient(top,  #fede46,  #fda014);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fede46', endColorstr='#fda014');
+  -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    text-shadow: 0px 1px #ffffff;
 }
 
 #reqBetaButton:hover {
@@ -82,6 +86,10 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, from(#fda014), to(#fede46));
   background: -moz-linear-gradient(top,  #fda014,  #fede46);
   filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#fda014', endColorstr='#fede46');
+  -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    text-shadow: 0px 1px #ffffff;
 }
 /* --------
  *  Slogan 
@@ -99,41 +107,3 @@ body {
   margin-top: 5%;
   text-align: center;
 }
-
-/* --------
- *  Footer 
- * --------
-**/
-footer {
-  position: absolute;
-  bottom: 0;
-  background-color: #1f1f1f;
-  opacity: 0.6;
-  width: 100%;
-  height: 36px;
-  -webkit-transition: opacity 1s;
-  -moz-transition: opacity 1s;
-  -o-transition: opacity 1s;
-  transition: opacity 1s;
-}
-footer #social-container {
-  display: block;
-  width: 72px;
-  height: 36px;
-  margin: 0 auto;
-}
-footer #social-container #twitter-follow,
-footer #social-container #instagram-follow {
-  display: inline;
-  line-height: 36px;
-  width: 32px;
-  height: 32px;
-  margin: 0 auto;
-}
-footer #social-container #twitter-follow a img,
-footer #social-container #instagram-follow a img {
-  width: 32px;
-  height: 32px;
-  vertical-align: middle;
-}
-footer:hover {  opacity: 0.9 }
