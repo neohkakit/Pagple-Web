@@ -28,7 +28,7 @@ input {
 }
 body,html {
   position:relative;
-  min-width:1750px;
+  min-width:1800px;
   width: 100%;
   height: 100%;
   background-color: #e8eaf1;
@@ -200,7 +200,7 @@ div#threeDesc {
   margin: 0 auto;
   margin-top: 50px;
   width: 80%;
-  height: 1242px;
+  height: 1342px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -284,3 +284,12 @@ div#simple{
   background-color: #ffffff;
 }
 
+div#simple div#simpleBackground{
+  width: 100%;
+  height: 905px;
+  background: url(../img/simple.png) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
