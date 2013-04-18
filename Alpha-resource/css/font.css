@@ -6,10 +6,15 @@
 */
 
 @charset "utf-8";
+
 @font-face{
   font-family:ProximaNova;
-  font-style: normal;
-  font-weight:100;
+  font-weight:lighter;
+  src:url("../font/ProximaNova-Light.otf") format('opentype');
+}
+
+@font-face{
+  font-family:ProximaNova;
   src:url("../font/ProximaNova-Light.otf") format('opentype');
 }
 

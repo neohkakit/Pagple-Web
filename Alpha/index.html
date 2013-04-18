@@ -1,6 +1,5 @@
 <!doctype html>
 <html>
-    
     <head>
         <meta charset="utf-8" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# 
                   website: http://ogp.me/ns/website#">
@@ -12,8 +11,6 @@
         <title>Pagple - Reinventing the marketplace user experience</title>
         <!-- CSS LIBRARIES-->
         <link rel="icon" href="ico/favicon1.png" sizes="16x16">
-        <link rel="stylesheet" href="css/pagple/pagple.css">
-        <link rel="stylesheet" href="css/popover.css"></link>
         <!-- JQUERY LIBRARIES-->
         <script type="text/javascript" src="js/lib/jquery.js"></script>
         <script type="text/javascript" src="js/lib/jquery-ui.js"></script>
@@ -21,110 +18,25 @@
         <script type="text/javascript" src="js/lib/jquery.validate.js"></script>
         <script type="text/javascript" src="js/lib/jquery.popover.js"></script>
         <!-- CSS -->
-        <link rel="stylesheet" href="css/main-style.css">
-        <link rel="stylesheet" href="css/pagpleMainNav.css">
+        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/font.css">
     </head>
-    
+
     <body>
         <div id="body-container">
-            <!-- Header -->
-            <header></header>
-            <nav>
-                <ul id="pagpleNav">
-                    <li>
-                        <a href="http://www.pagple.com/" title="Pagple">
-                            <img src="img/home-redir-logo.png" alt="Pagple Logo" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="fashion.html" title="Fashion">
-                            <img src="img/fashion-ico.png" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="technology.html" title="Techonlogy">
-                            <img src="img/tech-ico.png" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="food.html" title="Food">
-                            <img src="img/food-ico.png" alt="" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="login.html" title="Sign in">
-                            <img src="img/lock.png" alt="" />
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <!-- Body Contents -->
-            <div id="body-content">
-                <!-- Slogan -->
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
+            <div id="cover">
                 <div id="slogan">
-                     <h1 id="welcomeTextHeader">
+                    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                     <p id="welcomeTextHeader">
                         Welcome to Pagple.
-                    </h1>
+                    </p>
 
-                     <h2 id="welcomeText">
+                     <p id="welcomeText">
                         Re-discover the world’s marketplace here.
-                    </h2>
-
-                </div>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <div id="requestBeta">
-                    <button id="reqBetaButton" onclick="toggle(event, 'requestBeta');">Request Beta</button>
-                </div>
-                <script type="text/javascript">
-                    // click on the div
-
-                    function toggle(e, id) {
-                        var el = document.getElementById(id);
-                        $(el).fadeOut("fast");
-                        // el.style.display = (el.style.display == 'none') ? 'block' : 'none';
-
-                        // save it for hiding
-                        toggle.el = el;
-
-                        // stop the event right here
-                        if (e.stopPropagation)
-                            e.stopPropagation();
-                        e.cancelBubble = true;
-                        return false;
-                    }
-
-                     // click outside the div
-                    document.onclick = function () {
-                        if (toggle.el) {
-                            toggle.el.style.display = 'none';
-                        }
-                    }
-                </script>
-                <div id="email-container">
-                    <div id="email-background">
-                        <form action="email.php" method="post" id="email-form">
-                            <input type="text" id="email-field" name="email-field" placeholder="Enter email to get notified.">                
-                            <button id="email-button"></button>
-                        </form>
-                    </div>
+                    </p>
                 </div>
             </div>
+
         </div>
     </body>
-
 </html>
