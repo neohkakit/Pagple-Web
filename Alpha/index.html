@@ -12,12 +12,17 @@
         <title>Pagple - Reinventing the marketplace user experience</title>
         <!-- CSS LIBRARIES-->
         <link rel="icon" href="ico/favicon1.png" sizes="16x16">
+        <!-- <link href="js/lib/video-js/video-js.css" rel="stylesheet"> -->
+        <link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+        <script src="http://vjs.zencdn.net/c/video.js"></script>
         <!-- JQUERY LIBRARIES-->
         <script type="text/javascript" src="js/lib/jquery.js"></script>
         <script type="text/javascript" src="js/lib/jquery-ui.js"></script>
         <script type="text/javascript" src="js/lib/jquery-ui-min.js"></script>
         <script type="text/javascript" src="js/lib/jquery.validate.js"></script>
         <script type="text/javascript" src="js/lib/jquery.popover.js"></script>
+        <script type="text/javascript" src="js/lib/jquery.popover.js"></script>
+        <!-- // <script type="text/javascript" src="js/lib/video-js/video.js"></script> -->
         <!-- CSS -->
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/font.css">
@@ -49,10 +54,41 @@
                 </div>
             </div>
             <!-- FLOATING NAVIGATION BAR -->
-            <div id="navigationBar"></div>
+            <div id="navigationBar">
+                <ul>
+                    <li>
+                        <a href="http://www.pagple.com/" title="Pagple">
+                            <img src="img/home-redir-logo.png" alt="Logo" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <p>Overview</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <p>Three</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <p>Simple</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" title="">
+                            <p>Elements</p>
+                        </a>
+                    </li>
+                    <li>
+                        <button id="reqBetaButton" onclick="toggle(event, 'requestBeta');">Request Beta</button>
+                    </li>
+                </ul>
+            </div>
             <!-- OVERVIEW DIV -->
             <div id="overview">
-                <div>
+                <div id="textdiv">
                     <p id="headline">Introducing Pagple</p>
                     <br/>
                     <p id="midline">Re-discover. Re-connect. Re-form everything you ever thought of the common marketplace.</p>
@@ -60,8 +96,11 @@
                     <p id="descriptionText">Pagple aims to connect buyers and sellers on a different scale of user-experience. The simplest way to connect and share with brands, buyers, sellers and bloggers on three platfoms at a global scale. We believe the world deserve a platform where brands
                         are ever closer to us; and the ability to purchase anything at ease from the people we love.</p>
                 </div>
-                <video width="300px" height="300px" id="introvid">
-                    <!-- <source src="link" type="video/mp4"/>--></video>
+                <div id="vidiv">
+                    <video class="video-js vjs-default-skin" width="520" height="320" id="introvid" controls data-setup='{"techOrder": ["html5", "flash", "other supported tech"]}'>
+                        <source src="video/video.mp4" type="video/mp4" />
+                    </video>
+                </div>
             </div>
         </div>
     </body>
