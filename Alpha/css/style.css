@@ -231,14 +231,7 @@ div#threeDesc div#floating {
   margin-top: 75px;
   background: url(../img/three-ico-bg.png) no-repeat center;
 }
-div#threeDesc #floating ul {  list-style: none }
-div#threeDesc #floating li {
-  margin: 0 auto;
-  display: block;
-  float: left;
-  padding-top: 20px;
-  padding-left: 55px;
-}
+
 div#threeDesc #accecssorytextdiv {  padding-top: 15px }
 div#threeDesc #accecssorytextdiv p {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -257,6 +250,9 @@ div#threeDesc div#pageIntro {
   display: block;
 }
 div#threeDesc div#pageIntro img {
+  -webkit-box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.7);
+-moz-box-shadow:    -1px 2px 5px rgba(0, 0, 0, 0.7);
+box-shadow:         -1px 2px 5px rgba(0, 0, 0, 0.7);
   padding-left: 25px;
   padding-top: 50px;
   width: 31%;
@@ -361,14 +357,6 @@ div#simple div#floating {
   margin: 0 auto;
   margin-top: 20px;
   background: url(../img/basics-bg.png) no-repeat center;
-}
-div#simple div#floating ul {  list-style: none }
-div#simple div#floating li {
-  margin: 0 auto;
-  display: block;
-  float: left;
-  padding-top: 10px;
-  padding-left: 35px;
 }
 div#simple div#sample-forms {
   padding-top: 100px;
