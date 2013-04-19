@@ -1,11 +1,12 @@
-/*    style.css
+/* style.css
 **    Pagple
 **
 **    Created by Matthias Ryne Cheow on 05/03/13.
-*/
+ */
 @import url('font.css');
 @charset "utf-8";
-/* BASIC RESET */
+/* BASIC RESET
+   ================================================== */
 ul,
 ol,
 li,
@@ -78,7 +79,7 @@ p#welcomeText {
   animation: fadeIn 2s;
   text-align: center;
 }
-/*Navigation Bar*/
+/* ===[ Navigation Bar ]=== */
 div#navigationBar {
   width: 100%;
   height: 50px;
@@ -148,7 +149,7 @@ div#navigationBar #reqBetaButton:hover {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9939', endColorstr='#ffd459');
   text-shadow: 0px 1px #ffffff;
 }
-/*Overview DIV*/
+/* ===[ Overview DIV ]=== */
 div#overview {
   margin: 0 auto;
   margin-top: 50px;
@@ -192,7 +193,7 @@ div#overview div#vidiv {
   padding-top: 75px;
   padding-right: 120px;
 }
-/*Three description DIV*/
+/* ===[ Three description DIV ]=== */
 div#threeDesc {
   margin: 0 auto;
   margin-top: 50px;
@@ -231,7 +232,6 @@ div#threeDesc div#floating {
   margin-top: 75px;
   background: url(../img/three-ico-bg.png) no-repeat center;
 }
-
 div#threeDesc #accecssorytextdiv {  padding-top: 15px }
 div#threeDesc #accecssorytextdiv p {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -251,13 +251,13 @@ div#threeDesc div#pageIntro {
 }
 div#threeDesc div#pageIntro img {
   -webkit-box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.7);
--moz-box-shadow:    -1px 2px 5px rgba(0, 0, 0, 0.7);
-box-shadow:         -1px 2px 5px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.7);
+  box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.7);
   padding-left: 25px;
   padding-top: 50px;
   width: 31%;
 }
-/*Simple DIV*/
+/* ===[ Simple DIV ]=== */
 div#simple {
   margin: 0 auto;
   margin-top: 50px;
@@ -365,7 +365,7 @@ div#simple div#sample-forms {
   height: 326px;
   background: url(../img/sample-forms.png) no-repeat;
 }
-/*Elements DIV*/
+/* ===[ Elements DIV ]=== */
 div#elements {
   margin: 0 auto;
   margin-top: 50px;
@@ -379,20 +379,12 @@ div#elements {
   border-color: #aaaaaa;
   background-color: #ffffff;
 }
-
-div#elements #maintextdiv {
-
-}
-div#elements #maintextdiv p{
+div#elements #maintextdiv p {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   text-align: center;
 }
-
-div#elements #maintextdiv  {
-  padding-top: 50px;
-  
-}
+div#elements #maintextdiv {  padding-top: 50px }
 div#elements #maintextdiv p {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
@@ -405,46 +397,44 @@ div#elements #maintextdiv p#midline {
   width: 80%;
   font-size: 22pt;
 }
-
-div#elements div#elementsDiv{
-  width:80%;
-  height:2200px;
+div#elements div#elementsDiv {
+  width: 80%;
+  height: 2200px;
   margin: 0 auto;
-  padding-top:20px;
+  padding-top: 20px;
 }
-
-div#elements div#elementsDiv p{
+div#elements div#elementsDiv p {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
-  text-align: center;margin: 0 auto;font-size: 20pt;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20pt;
 }
-div#elements div#elementsDiv div#profileDiv{
-  height:794px;
+div#elements div#elementsDiv div#profileDiv {
+  height: 794px;
   background: url(../img/profilePage.png) no-repeat center;
-    
 }
-
-div#elements div#elementsDiv div#itemDiv{
-  height:794px;
+div#elements div#elementsDiv div#itemDiv {
+  height: 794px;
   background: url(../img/itemPage.png) no-repeat center;
 }
-
-div#elements div#elementsDiv div#notifyDiv{
-  height:600px;
+div#elements div#elementsDiv div#notifyDiv {
+  height: 600px;
   background: url(../img/Notification.png) no-repeat center;
 }
-
-/*SEPARATOR*/
+/* SEPARATOR
+   ================================================== */
 #separator {
   width: 910px;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 #separator img {
   width: 910px;
   margin: 0 auto;
 }
-/* NAVIGATION MENU */
+/* NAVIGATION MENU
+   ================================================== */
 .pagpleNav {
   background-image: url("../img/Long-black-sleek-bar.png");
   margin: 40px 0;
@@ -497,12 +487,13 @@ div#elements div#elementsDiv div#notifyDiv{
   line-height: 34px;
   outline: none;
 }
-/* Centers logo */
+/* ===[ Centers logo ]=== */
 .pagpleNav li a img {
   vertical-align: middle;
   margin-top: 0px;
 }
-/*NOTIFICATION*/
+/* NOTIFICATION
+   ================================================== */
 #profileDiv {  width: 100% }
 #notiffication {
   font-family: Arial;
@@ -520,12 +511,11 @@ div#elements div#elementsDiv div#notifyDiv{
   font-weight: 700;
   color: rgb(255,255,255);
 }
-
-
 /* --------
  *  Footer 
  * --------
-**/
+*
+   ================================================== */
 footer {
   position: absolute;
   bottom: 0;
@@ -558,6 +548,5 @@ footer #social-container #instagram-follow a img {
   height: 32px;
   vertical-align: middle;
 }
-footer:hover {
-  opacity: 0.9;
-}
+footer:hover {  opacity: 0.9 }
+  360
