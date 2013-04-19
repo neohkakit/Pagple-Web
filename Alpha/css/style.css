@@ -431,47 +431,16 @@ div#elements div#profileItemDiv p{
   text-align: center;margin: 0 auto;font-size: 22pt;
 }
 div#elements div#profileItemDiv div#profileDiv{
-  height:500px;
+  height:794px;
   background: url(../img/profilePage.png) no-repeat center;
     
 }
 
 div#elements div#profileItemDiv div#itemDiv{
-  height:500px;
+  height:794px;
   background: url(../img/itemPage.png) no-repeat center;
 }
 
-div#elements div#uploadTypeDiv p{
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  text-align: center;margin: 0 auto;font-size: 22pt;padding-top:50px;
-}
-div#elements div#uploadTypeDiv div#uploadDiv{
-  height:500px;
-  background: url(../img/uploadNormal.png) no-repeat center;
-    
-}
-
-div#elements div#uploadTypeDiv div#uploadFeatDiv{
-  height:500px;
-  background: url(../img/uploadFeat.png) no-repeat center;
-}
-
-iv#elements div#uploadTypeDiv p{
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  text-align: center;margin: 0 auto;font-size: 22pt;padding-top:50px;
-}
-div#elements div#uploadTypeDiv div#uploadDiv{
-  height:500px;
-  background: url(../img/uploadNormal.png) no-repeat center;
-    
-}
-
-div#elements div#uploadTypeDiv div#uploadFeatDiv{
-  height:500px;
-  background: url(../img/uploadFeat.png) no-repeat center;
-}
 
 
 /*SEPARATOR*/
