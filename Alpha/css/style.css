@@ -382,7 +382,7 @@ div#elements {
   margin: 0 auto;
   margin-top: 50px;
   width: 80%;
-  height: 2242px;
+  height: 2842px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -418,30 +418,33 @@ div#elements #maintextdiv p#midline {
   font-size: 22pt;
 }
 
-div#elements div#profileItemDiv{
+div#elements div#elementsDiv{
   width:80%;
-  height:500px;
+  height:2200px;
   margin: 0 auto;
   padding-top:20px;
 }
 
-div#elements div#profileItemDiv p{
+div#elements div#elementsDiv p{
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   text-align: center;margin: 0 auto;font-size: 22pt;
 }
-div#elements div#profileItemDiv div#profileDiv{
+div#elements div#elementsDiv div#profileDiv{
   height:794px;
   background: url(../img/profilePage.png) no-repeat center;
     
 }
 
-div#elements div#profileItemDiv div#itemDiv{
+div#elements div#elementsDiv div#itemDiv{
   height:794px;
   background: url(../img/itemPage.png) no-repeat center;
 }
 
-
+div#elements div#elementsDiv div#notifyDiv{
+  height:600px;
+  background: url(../img/Notification.png) no-repeat center;
+}
 
 /*SEPARATOR*/
 #separator {
