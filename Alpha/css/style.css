@@ -114,7 +114,7 @@ div#navigationBar li a {
   display: block;
   outline: none;
 }
-div#navigationBar li a p {
+div#navigationBar li:not(:first-child) a img {
   padding-left: 10px;
   padding-top: 10px;
   font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
