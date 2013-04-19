@@ -13,8 +13,8 @@
         <!-- CSS LIBRARIES-->
         <link rel="icon" href="ico/favicon1.png" sizes="16x16">
         <!-- <link href="js/lib/video-js/video-js.css" rel="stylesheet"> -->
-        <link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
-        <script src="http://vjs.zencdn.net/c/video.js"></script>
+        <link href="js/lib/video-js/video-js.css" rel="stylesheet">
+        <script src="js/lib/video-js/video.js"></script>
         <!-- JQUERY LIBRARIES-->
         <script type="text/javascript" src="js/lib/jquery.js"></script>
         <script type="text/javascript" src="js/lib/jquery-ui.js"></script>
@@ -57,7 +57,7 @@
             <div id="navigationBar">
                 <ul>
                     <li>
-                        <a href="http://www.pagple.com/" title="Pagple">
+                        <a href="javascript:void(0)" title="Pagple">
                             <img src="img/home-redir-logo.png" alt="Logo" />
                         </a>
                     </li>
@@ -114,17 +114,17 @@
                     <div id="floating">
                         <ul>
                             <li>
-                                <a href="" title="">
-                                    <img width="87" height "55" src="img/fashion-ico.png" />
+                                <a href="javascript:void(0)" title="">
+                                    <img width="" height "" src="img/fashion-ico.png" />
                                 </a>
                             </li>
                             <li>
-                                <a href="87" title="47">
+                                <a href="javascript:void(0)" title="">
                                     <img width="" height "" src="img/tech-ico.png" />
                                 </a>
                             </li>
                             <li>
-                                <a href="57" title="57">
+                                <a href="javascript:void(0)" title="">
                                     <img width="" height "" src="img/food-ico.png" />
                                 </a>
                             </li>
@@ -141,17 +141,170 @@
                     <img src="img/fashion-page.png" alt="fashion-page" id="fashion">
                     <img src="img/tech-page.png" alt="tech-page" id="tech">
                     <img src="img/food-page.png" alt="food-page" id="food">
-                </div> 
+                </div>
             </div>
             <!-- SIMPLE DIV -->
             <div id="simple">
                 <div id="simpleBackground">
+                    <div id="textdiv">
+                        <p id="headline">Simple</p>
+                        <p id="midline">Simplicity is the ultimate complexity.</p>
+                    </div>
+                    <div id="macbook"></div>
                 </div>
                 <div id="simpleMainBar">
+                    <nav>
+                        <ul class="pagpleNav">
+                            <li class="pagpleNav">
+                                <a href="javascript:void(0);" title="Pagple">
+                                    <img src="img/home-redir-logo.png" alt="Pagple Logo" />
+                                </a>
+                            </li>
+                            <li class="pagpleNav">
+                                <a href="javascript:void(0);" title="Fashion">
+                                    <img src="ico/fashion-ico.png" alt="" />
+                                </a>
+                            </li>
+                            <li class="pagpleNav">
+                                <a href="javascript:void(0);" title="Techonlogy">
+                                    <img src="ico/tech-ico.png" alt="" />
+                                </a>
+                            </li>
+                            <li class="pagpleNav">
+                                <a href="javascript:void(0);" title="Food">
+                                    <img src="ico/food-ico.png" alt="" />
+                                </a>
+                            </li>
+                            <li class="pagpleNav">
+                                <a href="javascript:void(0);" title="Sign in">
+                                    <img src="img/lock.png" alt="" />
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="desctextdiv">
+                    <p id="headline">Less is simply more</p>
+                    <p id="midline">
+                        <br/>One of our main principal is absolute simplicity.
+                        <br/>Pagple will be the simplest and easiest place to connect brands you love, share interesthings and sell goods.
+                        <br/>
+                        <br/>When we started building Pagple; we had tonnes of features that struck our mind but implementing all
+                        <br/>would just kill the simplistic user-experience therefore, reducing everything to minimal makes it all better to
+                        <br/>use. Our navigation bar fits the explanation.</p>
                 </div>
                 <div id="simpleHomeBar">
+                    <nav>
+                        <div class="pagpleNav">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)" title="Pagple">
+                                        <img src="img/home-redir-logo.png" alt="Pagple Logo" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" onclick="switch()" title="Switch">
+                                        <img src="ico/switch-ico.png" alt="" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" title="Messages">
+                                        <img src="ico/message-ico.png" alt="" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" title="Add">
+                                        <img src="ico/add-ico.png" alt="" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <div id="profileDiv">
+                                        <table>
+                                            <tr class="tableHeight">
+                                                <td width="35%" style="text-align: right;">
+                                                    <a href="profile.html" title="Sign in" style="display:inline;">
+                                                        <img src="img/profileicon.png" alt="" />
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <div id="notiffication">1</div>
+                                                </td>
+                                                <td> <span id="profileName">Ryne Cheow</span>
+
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+                <div id="separator">
+                    <img src="img/separator.png" />
+                </div>
+                <div id="basictextdiv">
+                    <p id="headline">Back to Basics</p>
+                    <div id="floating">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)" title="">
+                                    <img width="" height "" src="img/switch-icon.png" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" title="">
+                                    <img width="" height "" src="img/message-icon.png" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" title="">
+                                    <img width="" height "" src="img/upload-icon.png" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <p id="midline">Switch, message and upload are the basics but the most crucial user-interface
+                        <br/>features. Now, switching between platform, messaging your favorite brand,
+                        <br/>blogger and everything on Pagple, uploading the best content will be super seamless.</p>
+                </div>
+                <div id="sample-forms"></div>
+            </div>
+            <div id="elements">
+                <div id="maintextdiv">
+                    <p id="headline">Elements</p>
+                    <p id="midline">Everything else is here.</p>
+                </div>
+                <div id="profileItemDiv">
+                    
+                    <div style="float:left;width:50%">
+                        <p>Profile</p>
+                        <div id="profileDiv"></div>
+                    </div>
+                    
+                     <div style="float:left;width:50%" >
+                        <p>Item page</p>
+                        <div id="itemDiv"></div>
+                    </div>
+                </div>
+                <div id="separator">
+                    <img src="img/separator.png" />
+                </div>
+                <div id="uploadTypeDiv">
+                    <div style="float:left;width:50%">
+                        <p>Item Upload </p>
+                        <div id="uploadDiv"></div>
+                    </div>
+                    
+                     <div style="float:left;width:50%" >
+                        <p>Featured Item Upload</p>
+                        <div id="uploadFeatDiv"></div>
+                    </div>
+                </div>
+                <div id="separator">
+                    <img src="img/separator.png" />
                 </div>
             </div>
+        </div>
         </div>
     </body>
 

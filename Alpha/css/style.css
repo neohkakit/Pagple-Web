@@ -26,22 +26,21 @@ input {
   margin: 0;
   padding: 0;
 }
-body,html {
-  position:relative;
-  min-width:1800px;
+body,
+html {
+  position: relative;
+  min-width: 1800px;
   width: 100%;
   height: 100%;
   background-color: #e8eaf1;
 }
-
 #body-container {
-  position:absolute;
+  position: absolute;
   margin: 0 auto;
   width: 100%;
   height: 100%;
   padding-bottom: 500px;
 }
-
 #cover {
   width: 100%;
   height: 800px;
@@ -193,9 +192,7 @@ div#overview div#vidiv {
   padding-top: 75px;
   padding-right: 120px;
 }
-
 /*Three description DIV*/
-
 div#threeDesc {
   margin: 0 auto;
   margin-top: 50px;
@@ -254,27 +251,138 @@ div#threeDesc #accecssorytextdiv p#desctext {
   width: 80%;
   font-size: 14pt;
 }
-
-div#threeDesc div#pageIntro{
+div#threeDesc div#pageIntro {
   width: 90%;
   margin: 0 auto;
   display: block;
-  
 }
-
-div#threeDesc div#pageIntro img{
-  padding-left:25px;
-  padding-top:50px;
+div#threeDesc div#pageIntro img {
+  padding-left: 25px;
+  padding-top: 50px;
   width: 31%;
 }
-
 /*Simple DIV*/
-
-div#simple{
+div#simple {
   margin: 0 auto;
   margin-top: 50px;
   width: 80%;
-  height: 1242px;
+  height: 2142px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #aaaaaa;
+  background-color: #ffffff;
+}
+div#simple div#simpleBackground {
+  position: relative;
+  width: 100%;
+  height: 880px;
+  background: url(../img/background-snow.jpg) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+div#simple div#simpleBackground #macbook {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 0;
+  margin-bottom: -5px;
+  margin-left: 214px;
+  width: 1050px;
+  height: 647px;
+  background: url(../img/Macbookpro.png) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+div#simple #simpleBackground #textdiv {  padding-top: 70px }
+div#simple #simpleBackground #textdiv p {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+}
+div#simple #simpleBackground #textdiv p#headline {  font-size: 36pt }
+div#simple #simpleBackground #textdiv p#midline {
+  margin: 0 auto;
+  width: 80%;
+  font-size: 24pt;
+}
+div#simple div#simpleMainBar {
+  margin: 0 auto;
+  width: 910px;
+}
+div#simple div#simpleHomeBar {
+  margin: 0 auto;
+  width: 910px;
+}
+div#simple #desctextdiv {  padding-top: 140px }
+div#simple #desctextdiv p {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+div#simple #desctextdiv p#headline {  font-size: 24pt }
+div#simple #desctextdiv p#midline {
+  margin: 0 auto;
+  width: 80%;
+  font-size: 15pt;
+}
+div#simple div#floating {
+  width: 451px;
+  height: 95px;
+  margin: 0 auto;
+  margin-top: 75px;
+  background: url(../img/basics-bg.png) no-repeat center;
+}
+div#simple #basictextdiv {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+div#simple #basictextdiv p {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+div#simple #basictextdiv p#headline {  font-size: 24pt }
+div#simple #basictextdiv p#midline {
+  padding-top: 30px;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 15pt;
+}
+div#simple div#floating {
+  width: 337px;
+  height: 95px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: url(../img/basics-bg.png) no-repeat center;
+}
+div#simple div#floating ul {  list-style: none }
+div#simple div#floating li {
+  margin: 0 auto;
+  display: block;
+  float: left;
+  padding-top: 10px;
+  padding-left: 35px;
+}
+div#simple div#sample-forms {
+  padding-top: 100px;
+  margin: 0 auto;
+  width: 718px;
+  height: 326px;
+  background: url(../img/sample-forms.png) no-repeat;
+}
+/*Simple DIV*/
+div#elements {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 80%;
+  height: 2242px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -284,12 +392,171 @@ div#simple{
   background-color: #ffffff;
 }
 
-div#simple div#simpleBackground{
-  width: 100%;
-  height: 905px;
-  background: url(../img/simple.png) no-repeat center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+div#elements #maintextdiv {
+
+}
+div#elements #maintextdiv p{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+div#elements #maintextdiv  {
+  padding-top: 50px;
+  
+}
+div#elements #maintextdiv p {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+div#elements #maintextdiv p#headline {  font-size: 36pt }
+div#elements #maintextdiv p#midline {
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 22pt;
+}
+
+div#elements div#profileItemDiv{
+  width:80%;
+  height:500px;
+  margin: 0 auto;
+  padding-top:20px;
+}
+
+div#elements div#profileItemDiv p{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  text-align: center;margin: 0 auto;font-size: 22pt;
+}
+div#elements div#profileItemDiv div#profileDiv{
+  height:500px;
+  background: url(../img/profilePage.png) no-repeat center;
+    
+}
+
+div#elements div#profileItemDiv div#itemDiv{
+  height:500px;
+  background: url(../img/itemPage.png) no-repeat center;
+}
+
+div#elements div#uploadTypeDiv p{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  text-align: center;margin: 0 auto;font-size: 22pt;padding-top:50px;
+}
+div#elements div#uploadTypeDiv div#uploadDiv{
+  height:500px;
+  background: url(../img/uploadNormal.png) no-repeat center;
+    
+}
+
+div#elements div#uploadTypeDiv div#uploadFeatDiv{
+  height:500px;
+  background: url(../img/uploadFeat.png) no-repeat center;
+}
+
+iv#elements div#uploadTypeDiv p{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  text-align: center;margin: 0 auto;font-size: 22pt;padding-top:50px;
+}
+div#elements div#uploadTypeDiv div#uploadDiv{
+  height:500px;
+  background: url(../img/uploadNormal.png) no-repeat center;
+    
+}
+
+div#elements div#uploadTypeDiv div#uploadFeatDiv{
+  height:500px;
+  background: url(../img/uploadFeat.png) no-repeat center;
+}
+
+
+/*SEPARATOR*/
+#separator {
+  width: 910px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+#separator img {
+  width: 910px;
+  margin: 0 auto;
+}
+/* NAVIGATION MENU */
+.pagpleNav {
+  background-image: url("../img/Long-black-sleek-bar.png");
+  margin: 40px 0;
+  list-style: none;
+  font-family: MuseoSans;
+  letter-spacing: -0.5px;
+  font-size: 13px;
+  /* Apply a subtle text-shadow to the text */
+  text-shadow: 0 -1px 3px #202020;
+}
+.pagpleNav li {
+  display: block;
+  float: left;
+  width: 180px;
+  height: 40px;
+  background-repeat: no-repeat;
+}
+.pagpleNav li:not(:last-child),
+.pagpleNav li:not(:first-child) {
+  border-left: 1px solid #2f2f2f;
+  background-image: url('../img/Long-black-sleek-bar-item.png');
+  border-bottom: 1px solid #1f1f1f;
+  border-top: 1px solid #494949;
+}
+.pagpleNav li:first-child {
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-left: 1px solid #333333;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-image: url('../img/Long-black-sleek-bar-item.png');
+  border-bottom: 1px solid #1f1f1f;
+  border-top: 1px solid #494949;
+}
+.pagpleNav li:last-child {
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-right: 1px solid #333333;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-image: url('../img/Long-black-sleek-bar-item.png');
+  border-bottom: 1px solid #1f1f1f;
+  border-top: 1px solid #494949;
+}
+.pagpleNav li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  line-height: 34px;
+  outline: none;
+}
+/* Centers logo */
+.pagpleNav li a img {
+  vertical-align: middle;
+  margin-top: 0px;
+}
+/*NOTIFICATION*/
+#profileDiv {  width: 100% }
+#notiffication {
+  font-family: Arial;
+  font-weight: 700;
+  width: 25px;
+  height: 25px;
+  color: rgb(255,255,255);
+  text-align: center;
+  font-size: 20px;
+  background-color: rgb(255,0,0);
+  display: inline-block;
+}
+#profileName {
+  font-family: Arial;
+  font-weight: 700;
+  color: rgb(255,255,255);
 }
