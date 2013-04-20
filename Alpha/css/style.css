@@ -402,7 +402,7 @@ div#simple {
   }
 
  div#simple div#simpleMainBar {
-   padding-top: 70px;
+   padding-top: 50px;
    width: 920px;
    height: 50px;
    margin: 0 auto;
@@ -417,7 +417,7 @@ div#simple {
  }
 
  div#simple #desctextdiv {
-   padding-top: 15px;
+   padding-top: 5px;
    padding-bottom: 15px;
  }
 
@@ -428,12 +428,20 @@ div#simple {
     background: url('../img/simple/simple-desc-headline.png') no-repeat center;
   }
 
-  div#simple #desctextdiv div#midline {
+  div#simple #desctextdiv div#midline1 {
     width: 626px;
     height: 69px;
     padding-top: 20px;
     margin: 0 auto;
     background: url('../img/simple/simple-desc-midline.png') no-repeat center;
+  }
+
+    div#simple #desctextdiv div#midline2 {
+    width: 804px;
+    height: 65px;
+    padding-top: 10px;
+    margin: 0 auto;
+    background: url('../img/simple/simple-desc-midline2.png') no-repeat center;
   }
 
  div#simple #basictextdiv {
