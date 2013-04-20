@@ -7,17 +7,6 @@
 
 @charset "utf-8";
 
-@font-face{
-  font-family:ProximaNova;
-  font-weight:lighter;
-  src:url("../font/ProximaNova-Light.otf") format('opentype');
-}
-
-@font-face{
-  font-family:ProximaNova;
-  src:url("../font/ProximaNova-Light.otf") format('opentype');
-}
-
 @font-face {
   font-family: 'MuseoSans';
   src: url("../font/MuseoSans-100.otf") format('opentype');
