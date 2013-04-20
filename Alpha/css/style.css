@@ -26,7 +26,7 @@ input {
 body,
 html {
   position: relative;
-  min-width: 1752px;
+  min-width: 1764px;
   max-width: 1920px;
   width: 100%;
   height: 100%;
@@ -103,6 +103,7 @@ div#navigationBar-anchor{
  }
 
  div#navigationBar li a {
+     
    text-decoration: none;
    color: white;
    text-align: center;
@@ -118,8 +119,8 @@ div#navigationBar-anchor{
 
  div#navigationBar li a p {
    padding-left: 10px;
-   padding-top: 10px;
-   font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   padding-top: 15px;
+   font-family: ProximaNova, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
    font-weight: 700;
    font-size: 17px;
    vertical-align: middle;
@@ -158,7 +159,7 @@ div#overview {
   position: relative;
   margin: 0 auto;
   margin-top: 100px;
-  width: 80%;
+  width: 70%;
   height: 427px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -221,7 +222,7 @@ div#overview {
 div#threeDesc {
   margin: 0 auto;
   margin-top: 50px;
-  width: 80%;
+  width: 70%;
   height: 1342px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -291,8 +292,8 @@ div#threeDesc {
  }
 
   div#threeDesc div#pageIntro div {
-    width: 400px;
-    height: 667px;
+    width: 350px;
+    height: 583px;
     -webkit-box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.7);
     -moz-box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.7);
     box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.7);
@@ -327,8 +328,8 @@ div#threeDesc {
 div#simple {
   margin: 0 auto;
   margin-top: 50px;
-  width: 80%;
-  height: 1950px;
+  width: 70%;
+  height: 1900px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -349,21 +350,26 @@ div#simple {
    background-size: cover;
  }
 
-  div#simple div#simpleBackground #macbook {
+  div#simple div#simpleBackground .macbook {
     position: absolute;
     margin: 0 auto;
     bottom: 0;
     margin-bottom: -25px;
-    margin-left: 15%;
-    width: 1050px;
+    margin-left: 10%;
+    width: 80%;
     height: 600px;
-    background: url(../img/simple/Macbookpro.png) no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  }
+div.macbook img {
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    width: 100%;
+    height: 600px;
   }
 
+  div.macbook .show {
+    z-index: 500;
+}
  div#simple #simpleBackground #textdiv {  padding-top: 70px }
 
   div#simple #simpleBackground #textdiv div#headline {
@@ -426,7 +432,7 @@ div#simple {
 
  div#simple #basictextdiv {
    padding-top: 50px;
-   margin-bottom: 50px;
+   margin-bottom: 20px;
  }
 
   div#simple #basictextdiv div#headline {
@@ -453,7 +459,7 @@ div#simple {
  }
 
  div#simple div#sample-forms {
-   padding-top: 100px;
+   /*padding-top: 20px;*/
    margin: 0 auto;
    width: 725px;
    height: 328px;
@@ -463,7 +469,7 @@ div#simple {
 div#elements {
   margin: 0 auto;
   margin-top: 50px;
-  width: 80%;
+  width: 70%;
   height: 2600px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -533,10 +539,11 @@ div#elements {
 footer {
   position: fixed;
   bottom: 0;
+  left:10px;
   /*background-color: #1f1f1f;*/
-  opacity: 0.6;
-  width: 10%;
-  float: left;
+  opacity: 0.8;
+  width: 5%;
+  /*float: left;*/
   height: 36px;
   -webkit-transition: opacity 1s;
   -moz-transition: opacity 1s;
