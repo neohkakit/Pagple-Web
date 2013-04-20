@@ -319,7 +319,7 @@ div#simple div#simpleBackground #macbook {
   position: absolute;
   margin: 0 auto;
   bottom: 0;
-  margin-bottom: -28px;
+  margin-bottom: -25px;
   margin-left: 200px;
   width: 1050px;
   height: 600px;
@@ -374,13 +374,6 @@ div#simple #desctextdiv div#midline {
   background: url('../img/simple/simple-desc-midline.png') no-repeat center;
 }
 
-div#simple div#floating {
-  width: 451px;
-  height: 95px;
-  margin: 0 auto;
-  margin-top: 75px;
-  background: url(../img/basics-bg.png) no-repeat center;
-}
 div#simple #basictextdiv {
   padding-top: 50px;
   margin-bottom: 50px;
@@ -402,7 +395,7 @@ div#simple div#floating {
   width: 390px;
   height: 110px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 25px;
   background: url(../img/simple/basics-bg.png) no-repeat center;
 }
 div#simple div#sample-forms {
@@ -417,7 +410,7 @@ div#elements {
   margin: 0 auto;
   margin-top: 50px;
   width: 80%;
-  height: 2842px;
+  height: 2600px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -426,23 +419,19 @@ div#elements {
   border-color: #aaaaaa;
   background-color: #ffffff;
 }
-div#elements #maintextdiv p {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  text-align: center;
-}
 div#elements #maintextdiv {  padding-top: 50px }
-div#elements #maintextdiv p {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  text-align: center;
-}
-div#elements #maintextdiv p#headline {  font-size: 36pt }
-div#elements #maintextdiv p#midline {
-  padding-top: 20px;
+div#elements #maintextdiv div#headline {  
+  width:165px;
+  height:47px;
   margin: 0 auto;
-  width: 80%;
-  font-size: 22pt;
+  background: url('../img/elements/elements-headline.png') no-repeat center;
+}
+div#elements #maintextdiv div#desctext {  
+  width:658px;
+  height:33px;
+  margin: 0 auto;
+  margin-top: 25px;
+  background: url('../img/elements/elements-desctext.png') no-repeat center;
 }
 div#elements div#elementsDiv {
   width: 80%;
@@ -450,31 +439,45 @@ div#elements div#elementsDiv {
   margin: 0 auto;
   padding-top: 20px;
 }
-div#elements div#elementsDiv p {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  text-align: center;
+div#elements div#elementsDiv div {
   margin: 0 auto;
-  font-size: 20pt;
+}
+
+div#elements div#elementsDiv div#profTextDiv {
+  width:62px;
+  height:24px;
+  background: url('../img/elements/profile-header.png') no-repeat center;
+}
+
+div#elements div#elementsDiv div#itemTextDiv {
+  width:124px;
+  height:24px;
+  background: url('../img/elements/content-header.png') no-repeat center;
+}
+
+div#elements div#elementsDiv div#notifyTextDiv {
+  width:124px;
+  height:24px;
+  background: url('../img/elements/notification-header.png') no-repeat center;
 }
 div#elements div#elementsDiv div#profileDiv {
   height: 794px;
-  background: url(../img/profilePage.png) no-repeat center;
+  background: url(../img/elements/profilePage.png) no-repeat center;
 }
 div#elements div#elementsDiv div#itemDiv {
   height: 794px;
-  background: url(../img/itemPage.png) no-repeat center;
+  background: url(../img/elements/itemPage.png) no-repeat center;
 }
 div#elements div#elementsDiv div#notifyDiv {
   height: 600px;
-  background: url(../img/Notification.png) no-repeat center;
+  background: url(../img/elements/Notification.png) no-repeat center;
 }
 /* SEPARATOR
    ================================================== */
 #separator {
   width: 910px;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 25px;
 }
 #separator img {
   width: 910px;
