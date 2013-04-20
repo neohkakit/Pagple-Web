@@ -167,25 +167,45 @@ div#overview p {
 }
 div#overview div#textdiv {
   float: left;
-  padding-top: 50px;
+  padding-top: 80px;
   padding-left: 100px;
   width: 30%;
 }
-div#overview p#headline {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  font-size: 32px;
+div#overview div#headline {
+  width:261px;
+  height:38px;
+  left:0;
+  background: url('../img/overview/overview-headline.png') no-repeat center;
+  margin-bottom:10px;
 }
-div#overview p#midline {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  font-size: 26px;
+div#overview div#midline {
+  width:437px;
+  height:57px;
+  left:0;
+  background: url('../img/overview/overview-midline.png') no-repeat center;
+  margin-bottom:10px;
 }
-div#overview p#descriptionText {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  font-size: 19px;
+div#overview div#desctext1 {
+  width:410px;
+  height:116px;
+  left:0;
+  background: url('../img/overview/overview-desctext1.png') no-repeat center;
+  margin-bottom:10px;
 }
+
+div#overview div#desctext2 {
+  width:222px;
+  height:19px;
+  left:0;
+  background: url('../img/overview/overview-desctext2.png') no-repeat center;
+}
+/*
+  width:px;
+  height:px;
+  margin: 0 auto;
+  background: url('../img/') no-repeat center;
+
+*/
 div#overview div#vidiv {
   float: right;
   padding-top: 75px;
@@ -208,44 +228,54 @@ div#threeDesc {
 div#threeDesc #threeDescBackground {
   width: 100%;
   height: 500px;
-  background: url('../img/threebg.jpg') no-repeat center top;
+  background: url('../img/three/threebg.jpg') no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 div#threeDesc #textdiv {  padding-top: 70px }
-div#threeDesc #textdiv p {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  text-align: center;
-  color: white;
+
+div#threeDesc div#headline {  
+  width:99px;
+  height:48px;
+  margin: 0 auto;
+  background: url('../img/three/three-headline.png') no-repeat center;
 }
-div#threeDesc p#headline {  font-size: 38px }
-div#threeDesc p#desctext {  font-size: 16pt }
+
+div#threeDesc div#desctext {  
+  width:634px;
+  height:33px;
+  margin: 0 auto;
+  padding-top:20px;
+  background: url('../img/three/three-maindesc.png') no-repeat center;
+}
+
 div#threeDesc div#floating {
   width: 451px;
   height: 95px;
   margin: 0 auto;
   margin-top: 75px;
-  background: url(../img/three-ico-bg.png) no-repeat center;
+  background: url(../img/three/three-ico-bg.png) no-repeat center;
 }
 div#threeDesc #accecssorytextdiv {  padding-top: 15px }
-div#threeDesc #accecssorytextdiv p {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  text-align: center;
-}
-div#threeDesc #accecssorytextdiv p#headline {  font-size: 20pt }
-div#threeDesc #accecssorytextdiv p#desctext {
+
+div#threeDesc #accecssorytextdiv div#headline {  
+  width:180px;
+  height:33px;
   margin: 0 auto;
-  width: 80%;
-  font-size: 14pt;
+  background: url('../img/three/three-acc-headline.png') no-repeat center;
+}
+div#threeDesc #accecssorytextdiv div#desctext {
+  width:905px;
+  height:45px;
+  margin: 0 auto;
+  background: url('../img/three/three-acc-desctext.png') no-repeat center;
 }
 div#threeDesc div#pageIntro {
   width: 90%;
   height:450px;
-  margin: 0 auto;
+  margin: 20px auto;
   display: block;
 }
 div#threeDesc div#pageIntro div {
@@ -264,15 +294,15 @@ div#threeDesc div#pageIntro div {
 }
 
 div#threeDesc div#pageIntro div#fashion {
-  background:url(../img/fashion-page.png) no-repeat center;
+  background:url(../img/three/fashion-page.png) no-repeat center;
 }
 
 div#threeDesc div#pageIntro div#tech {
-  background:url(../img/tech-page.png) no-repeat center;
+  background:url(../img/three/tech-page.png) no-repeat center;
 }
 
 div#threeDesc div#pageIntro div#food {
-  background:url(../img/food-page.png) no-repeat center;
+  background:url(../img/three/food-page.png) no-repeat center;
 }
 
 
