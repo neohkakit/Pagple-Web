@@ -45,18 +45,19 @@ $(document).ready(function () {
                 $("#email-background").css("box-shadow", "0 0 16px #E24549");
             } else {
                 $("#email-container").empty().append(data);
-                $("#email-container").toggleClass("animateMargin");
-                $("#email-container").animate({
-                    marginLeft: '+=' + ($(document).width() - 550) / 2,
-                }, 300, function () {
-                    // Animation complete. [callback function]
-                    $("#email-container").css('margin', '0 auto');
-
+                $("#email-container").effect("clip", {}, 500, function callback() {
+                    setTimeout(function () {
+                        $("#effect").removeAttr("style").hide().fadeIn();
+                    }, 1000);
                 });
+
+
             }
         });
     });
 }); // end document.ready()
+
+
 $(function () {
     var a = function () {
         var b = $(window).scrollTop();

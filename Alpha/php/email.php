@@ -63,24 +63,12 @@
 					// instantiate object database
 					$db = new Database();
 					
-					// show the email responds container
-					// echo '
-					// 	<div id="email-respond-container">
-					// 		<ul>
-					// 			<li><div id="email-respond-icon"></div></li>
-					// 			<li>
-					// 				<div id="email-respond-content">
-					// 					<textarea id="textarea-msg" placeholder="Compose your tweet">We want to rediscover the world\'s marketplace, but we can\'t do it alone. Revolutionize with Pagple.</textarea>
-					// 				</div>
-					// 			</li>
-					// 			<li>
-					// 				<div id="email-respond-forward">
-					// 					<a onclick="popup()"></a>
-					// 				</div>
-					// 			</li>
-					// 		</ul>
-					// 	</div>
-					// ';
+					show the email responds container
+					echo '
+						<div id="email-respond-container">
+							<p> You are now subscribed to Pagple\'s newsletter!</p>
+						</div>
+					';
 					
 					// variables: email content & information
 					$email   = $_REQUEST['email-field'];
