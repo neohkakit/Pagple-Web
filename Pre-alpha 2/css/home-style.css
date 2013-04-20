@@ -166,6 +166,17 @@ footer div a img {
   background: rgb(233,233,233);
   position: relative;
 }
+
+#twindivright {
+  width:100%;
+  height:inherit;
+  background: url('../img/second-page/H&M.png') no-repeat 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
 #container {
   background-repeat:no-repeat;
   background-size: cover;

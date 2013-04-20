@@ -89,6 +89,22 @@
                 });
             }); // end document.ready()
         </script>
+
+        <script type="text/javascript"> 
+    $(function() {
+        var a = function() {
+            var b = $(window).scrollTop();
+            var d = $("#navigationBar-anchor").offset().top;
+            var c = $("#navigationBar");
+            if (b > d) {
+                c.css({position:"fixed",top:"0px"})
+            } else {
+                c.css({position:"absolute",top:""})
+            }
+        };
+        $(window).scroll(a);a()
+    });
+</script>
     </head>
     
     <body>
@@ -100,7 +116,8 @@
                 </div>
             </div>
             <!-- FLOATING NAVIGATION BAR -->
-            <div id="navigationBar">
+            <div id="navigationBar-anchor" ></div>
+            <div id="navigationBar" >
                 <ul>
                     <li>
                         <a href="javascript:void(0)" title="Pagple">
