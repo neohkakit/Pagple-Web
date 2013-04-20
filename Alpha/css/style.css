@@ -518,20 +518,6 @@ div#elements {
     background: url('../img/elements/notification-header.png') no-repeat center;
   }
 
-  div#elements div#elementsDiv div#profileDiv {
-    height: 794px;
-    background: url(../img/elements/profilePage.png) no-repeat center;
-  }
-
-  div#elements div#elementsDiv div#itemDiv {
-    height: 794px;
-    background: url(../img/elements/itemPage.png) no-repeat center;
-  }
-
-  div#elements div#elementsDiv div#notifyDiv {
-    height: 600px;
-    background: url(../img/elements/Notification.png) no-repeat center;
-  }
 
 #separator {
   width: 910px;
