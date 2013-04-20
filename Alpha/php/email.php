@@ -64,23 +64,23 @@
 					$db = new Database();
 					
 					// show the email responds container
-					echo '
-						<div id="email-respond-container">
-							<ul>
-								<li><div id="email-respond-icon"></div></li>
-								<li>
-									<div id="email-respond-content">
-										<textarea id="textarea-msg" placeholder="Compose your tweet">We want to rediscover the world\'s marketplace, but we can\'t do it alone. Revolutionize with Pagple.</textarea>
-									</div>
-								</li>
-								<li>
-									<div id="email-respond-forward">
-										<a onclick="popup()"></a>
-									</div>
-								</li>
-							</ul>
-						</div>
-					';
+					// echo '
+					// 	<div id="email-respond-container">
+					// 		<ul>
+					// 			<li><div id="email-respond-icon"></div></li>
+					// 			<li>
+					// 				<div id="email-respond-content">
+					// 					<textarea id="textarea-msg" placeholder="Compose your tweet">We want to rediscover the world\'s marketplace, but we can\'t do it alone. Revolutionize with Pagple.</textarea>
+					// 				</div>
+					// 			</li>
+					// 			<li>
+					// 				<div id="email-respond-forward">
+					// 					<a onclick="popup()"></a>
+					// 				</div>
+					// 			</li>
+					// 		</ul>
+					// 	</div>
+					// ';
 					
 					// variables: email content & information
 					$email   = $_REQUEST['email-field'];
@@ -105,7 +105,7 @@
 											<a href='https://twitter.com/pagple' target='_blank'><img src='http://pagple.com/ico/twitter-ico.png' style='padding-right: 5px;'></a>
 										</td>
 										<td align='left' width='200px'>
-											<a href='http://instagram.com/pagple' target='_blank'><img src='http://pagple.com/ico/instragram.png' style='padding-left: 5px;'></a>
+											<a href='http://instagram.com/pagple' target='_blank'><img src='http://pagple.com/ico/instagram.png' style='padding-left: 5px;'></a>
 										</td>
 									</tr>
 								</table>
