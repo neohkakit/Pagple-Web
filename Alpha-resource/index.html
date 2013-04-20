@@ -53,7 +53,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="login.html" title="Sign in">
+                        <a href="#" onclick="javascript:signInShow(event);" title="Sign in">
                             <img src="img/lock.png" alt="" />
                         </a>
                     </li>
@@ -87,42 +87,27 @@
                 <br/>
                 <br/>
                 <br/>
-                <div id="requestBeta">
-                    <button id="reqBetaButton" onclick="toggle(event, 'requestBeta');">Request Beta</button>
+                <div id="signInContainer">
+                    <form id="signInForm">
+                            <input type="text" id="email-field" name="email-field" style="color:#fff" placeholder="Email address"/>  
+                            <a href="#" id='forgotPw'>Forgot?</a>
+                            <input type="password" id="password-field" name="password-field" style="color:#fff" placeholder="Your password here"/>
+                            <button id="signInButton"></button>
+                    </form>
                 </div>
                 <script type="text/javascript">
-                    // click on the div
+                    function signInShow(e){
+                        var el = document.getElementById('signInContainer');
+                        $(el).fadeIn("slow");
 
-                    function toggle(e, id) {
-                        var el = document.getElementById(id);
-                        $(el).fadeOut("fast");
-                        // el.style.display = (el.style.display == 'none') ? 'block' : 'none';
-
-                        // save it for hiding
-                        toggle.el = el;
-
-                        // stop the event right here
                         if (e.stopPropagation)
                             e.stopPropagation();
                         e.cancelBubble = true;
+
                         return false;
                     }
-
-                     // click outside the div
-                    document.onclick = function () {
-                        if (toggle.el) {
-                            toggle.el.style.display = 'none';
-                        }
-                    }
                 </script>
-                <div id="email-container">
-                    <div id="email-background">
-                        <form action="email.php" method="post" id="email-form">
-                            <input type="text" id="email-field" name="email-field" placeholder="Enter email to get notified.">                
-                            <button id="email-button"></button>
-                        </form>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </body>
