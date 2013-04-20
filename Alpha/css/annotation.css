@@ -75,7 +75,7 @@
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
     filter: alpha(opacity=95);
 	opacity: 0.8;
-	box-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+	/*box-shadow: 1px 1px 10px rgba(0,0,0,0.2);*/
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -135,7 +135,7 @@
 	transition: all 0.3s ease-in-out;
 }
 
-.ao-annotations span:after {
+.ao-annotations span:after{
 	position: absolute;
 	background: transparent url(../img/annotation/arrow.png) no-repeat center center;
 	width: 32px;

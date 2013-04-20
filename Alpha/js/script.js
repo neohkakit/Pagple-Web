@@ -1,5 +1,6 @@
 // click on the div
 var bgChg = false;
+
 function toggle(e, id) {
     var el = document.getElementById(id);
     $(el).fadeOut("slow");
@@ -25,7 +26,7 @@ document.onclick = function () {
 }
 
 $(document).ready(function () {
-thebackground();
+    thebackground();
     $('div.macbook').fadeIn(1000); // works for all the browsers other than IE
     $('div.macbook img').fadeIn(1000); // IE tweak
     $("#email-form").submit(function (e) {
@@ -83,18 +84,18 @@ $(function () {
 });
 
 function thebackground() {
-    
+
     setInterval('change()', 7000);
 }
 
 function change() {
-    if(bgChg){
+    if (bgChg) {
         $('div.macbook img').fadeIn(1000);
         $('div.macbook img:first').fadeOut(1000);
-        bgChg=false;
-    }else{
+        bgChg = false;
+    } else {
         $('div.macbook img').fadeOut(1000);
         $('div.macbook img:first').fadeIn(1000);
-        bgChg=true;
+        bgChg = true;
     }
 };
