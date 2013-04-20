@@ -41,6 +41,7 @@ html {
   width: 100%;
   height: 100%;
   background-color: #e8eaf1;
+  padding-bottom:36px;
 }
 
 #body-container {
@@ -48,7 +49,7 @@ html {
   margin: 0 auto;
   width: 100%;
   height: 100%;
-  padding-bottom: 6600px;
+  /*padding-bottom: 6600px;*/
 }
 
 div#cover {
@@ -579,11 +580,12 @@ div#elements {
    ================================================== */
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  background-color: #1f1f1f;
+  /*background-color: #1f1f1f;*/
   opacity: 0.6;
-  width: 100%;
+  width: 10%;
+  float:left;
   height: 36px;
   -webkit-transition: opacity 1s;
   -moz-transition: opacity 1s;
