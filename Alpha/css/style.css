@@ -244,17 +244,38 @@ div#threeDesc #accecssorytextdiv p#desctext {
 }
 div#threeDesc div#pageIntro {
   width: 90%;
+  height:450px;
   margin: 0 auto;
   display: block;
 }
-div#threeDesc div#pageIntro img {
+div#threeDesc div#pageIntro div {
+  width:400px;
+  height:667px;
   -webkit-box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.7);
   -moz-box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.7);
   box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.7);
-  padding-left: 25px;
-  padding-top: 50px;
-  width: 31%;
+  /*padding-top: 50px;*/
+  margin-left:20px;
+  float:left;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+div#threeDesc div#pageIntro div#fashion {
+  background:url(../img/fashion-page.png) no-repeat center;
+}
+
+div#threeDesc div#pageIntro div#tech {
+  background:url(../img/tech-page.png) no-repeat center;
+}
+
+div#threeDesc div#pageIntro div#food {
+  background:url(../img/food-page.png) no-repeat center;
+}
+
+
 /* ===[ Simple DIV ]=== */
 div#simple {
   margin: 0 auto;
