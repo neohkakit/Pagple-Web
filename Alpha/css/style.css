@@ -119,7 +119,17 @@ div#navigationBar {
    text-align: center;
    display: block;
    outline: none;
+   transition: text-shadow 1s;
+-moz-transition: text-shadow 1s; /* Firefox 4 */
+-webkit-transition: text-shadow 1s; /* Safari and Chrome */
+-o-transition: text-shadow 1s; /* Opera */
  }
+
+ div#navigationBar li a:hover {
+   text-shadow: 0 0 10px #fff;
+ }
+
+
 
  div#navigationBar li:not(:first-child) a img {
    padding-left: 10px;
