@@ -89,7 +89,7 @@ div#navigationBar {
 
  div#navigationBar ul {  list-style: none }
 
- div#navigationBar li {
+ div#navigationBar li:not(:last-child) {
    padding-left: 12px;
    padding-top: 5px;
    margin: 0 auto;
@@ -102,10 +102,12 @@ div#navigationBar {
    padding-right: 10px;
  }
 
- div#navigationBar li:last-child {
-   padding-top: 7px;
+  div#navigationBar li:last-child{
    float: right;
    padding-right: 240px;
+   padding-top: 2px;
+   display: block;
+   margin: 0 auto;
  }
 
  div#navigationBar li a {
@@ -117,6 +119,16 @@ div#navigationBar {
  }
 
  div#navigationBar li:not(:first-child) a img {
+   padding-left: 10px;
+   padding-top: 10px;
+   font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 700;
+   font-size: 17px;
+   vertical-align: middle;
+   margin-top: 0px;
+ }
+
+div#navigationBar li:not(:first-child) a img {
    padding-left: 10px;
    padding-top: 10px;
    font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -144,6 +156,7 @@ div#navigationBar {
    background: -moz-linear-gradient(top,  #ffd459,  #ff9939);
    text-shadow: 0px 1px #ffffff;
    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd459', endColorstr='#ff9939');
+   margin-top:5px;
  }
 
  div#navigationBar #reqBetaButton:hover {
@@ -587,3 +600,209 @@ footer {
    }
 
 footer:hover {  opacity: 0.9 }
+
+/* -------
+ *  Email 
+ * -------
+**/
+@-moz-document url-prefix() {
+  #email-container ul {
+    display: table-row;
+  }
+  #email-container ul li {
+    line-height: 116px;
+    vertical-align: middle;
+    display: table-cell;
+  }
+  #email-respond-content textarea {
+    width: 418px;
+    height: 116px;
+    overflow: hidden;
+  }
+  #email-container {
+    top:0px;
+    display:none;
+    position: relative;
+    margin: 0 auto;
+    width: 387px;
+    height: auto;
+  
+  }
+  #email-container.animateMargin {
+    position: relative;
+    margin-left: 0;
+    width: 530px;
+    height: 46px;
+  }
+}
+
+#email-container {
+  display:none;
+}
+#email-container p {
+  text-shadow: 2px 2px 5px #0d0d0d;
+  text-align: center;
+  font-size: 20px;
+  font-family: Kalinga;
+  color: #999;
+
+}
+#email-background {
+  background: url(../img/email-field/background-metro.png) no-repeat center;
+  margin: 0 auto;
+  -webkit-background-size: 387px 46px;
+  -moz-background-size: 387px 46px;
+  -o-background-size: 387px 46px;
+  background-size: 387px 46px;
+  width: 387px;
+  height: 46px;
+}
+#email-background.invalid {
+  box-shadow: 0 0 16px #F93159;
+}
+#email-field {
+  padding-left: 12px;
+  margin-top: 8px;
+  border: none;
+  float: left;
+  font-size: 14px;
+  font-family: Kalinga;
+  background: url(../img/email-field/field-bg-metro.png) no-repeat center;
+  line-height: 22px;
+  vertical-align: middle;
+  -webkit-background-size: 295px 32px;
+  -moz-background-size: 295px 32px;
+  -o-background-size: 295px 32px;
+  background-size: 295px 32px;
+  width: 295px;
+  height: 32px;
+}
+#email-field:focus {
+  border: none;
+  outline: none;
+  line-height: 32px;
+  vertical-align: middle;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: Kalinga;
+}
+#email-button {
+  border: none;
+  margin-top: 8px;
+  float: left;
+  background: url(../img/email-field/button-default-metro.png) no-repeat center;
+  -webkit-background-size: 72px 32px;
+  -moz-background-size: 72px 32px;
+  -o-background-size: 72px 32px;
+  background-size: 72px 32px;
+  width: 72px;
+  height: 32px;
+}
+#email-button:active {
+  border: none;
+  background: url(../img/email-field/button-clicked-metro.png) no-repeat center;
+  -webkit-background-size: 72px 32px;
+  -moz-background-size: 72px 32px;
+  -o-background-size: 72px 32px;
+  background-size: 72px 32px;
+  width: 72px;
+  height: 32px;
+}
+
+/* --------------------------
+ *  Email Responds container
+ * --------------------------
+**/
+#email-container ul {
+  display: table-row;
+}
+#email-container ul li {
+  display: table-cell;
+}
+#email-container.animateMargin {
+  margin-left: 0;
+  width: 530px;
+  height: auto;
+}
+#email-respond-container {
+  width: 490px;
+  height: auto;
+}
+#email-respond-icon {
+  background: url(../img/email-respond-cut/email-respond-metro_03.png) no-repeat;
+  -webkit-background-size: 48px 116px;
+  -moz-background-size: 48px 116px;
+  -o-background-size: 48px 116px;
+  background-size: 48px 116px;
+  width: 48px;
+  height: 116px;
+}
+#email-respond-content {
+  background: url(../img/email-respond-cut/email-respond-metro_04.png) no-repeat;
+  -webkit-background-size: 430px 116px;
+  -moz-background-size: 430px 116px;
+  -o-background-size: 430px 116px;
+  background-size: 430px 116px;
+  width: 430px;
+  height: 116px;
+}
+#email-respond-content textarea {
+  width: 418px;
+  height: 106px;
+  border: none;
+  resize: none;
+  outline: none;
+  color: #ffffff;
+  font-family: Kalinga;
+  padding-left: 12px;
+  padding-top: 10px;
+  font-size: 20px;
+  overflow: hidden;
+  webkit-overflow-scrolling: touch;
+  background: transparent;
+}
+#email-respond-forward {
+  position: relative;
+  background: url(../img/email-respond-cut/email-respond-metro_05.png) no-repeat;
+  -webkit-background-size: 50px 116px;
+  -moz-background-size: 50px 116px;
+  -o-background-size: 50px 116px;
+  background-size: 50px 116px;
+  width: 50px;
+  height: 116px;
+}
+#email-respond-forward a {
+  cursor: pointer;
+  border: none;
+  border-radius: 24px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 12px;
+  background: url(../ico/arrow-forward.png) no-repeat center;
+  -webkit-background-size: 32px 32px;
+  -moz-background-size: 32px 32px;
+  -o-background-size: 32px 32px;
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
+  -webkit-animation: blink 1500ms infinite alternate;
+  -moz-animation: blink 1500ms infinite alternate;
+  -ms-animation: blink 1500ms infinite alternate;
+  animation: blink 1500ms infinite alternate;
+}
+#email-respond-forward:active a {
+  border: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 12px;
+  background: url(../ico/arrow-forward-clicked.png) no-repeat center;
+  -webkit-background-size: 32px 32px;
+  -moz-background-size: 32px 32px;
+  -o-background-size: 32px 32px;
+  background-size: 32px 32px;
+  width: 32px;
+  height: 32px;
+}
+
