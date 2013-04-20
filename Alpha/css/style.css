@@ -77,6 +77,8 @@ div#navigationBar {
   z-index: 1000;
 }
 
+div#navigationBar-anchor{
+}
  div#navigationBar ul {  list-style: none }
 
  div#navigationBar li:not(:last-child) {
