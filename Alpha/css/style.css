@@ -119,37 +119,25 @@ div#navigationBar {
    text-align: center;
    display: block;
    outline: none;
-   transition: text-shadow 1s;
--moz-transition: text-shadow 1s; /* Firefox 4 */
--webkit-transition: text-shadow 1s; /* Safari and Chrome */
--o-transition: text-shadow 1s; /* Opera */
+   transition: text-shadow 0.5s;
+-moz-transition: text-shadow 0.5s; /* Firefox 4 */
+-webkit-transition: text-shadow 0.5s; /* Safari and Chrome */
+-o-transition: text-shadow 0.5s; /* Opera */
  }
 
  div#navigationBar li a:hover {
    text-shadow: 0 0 10px #fff;
  }
 
-
-
- div#navigationBar li:not(:first-child) a img {
-   padding-left: 10px;
-   padding-top: 10px;
-   font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-   font-weight: 700;
-   font-size: 17px;
-   vertical-align: middle;
-   margin-top: 0px;
- }
-
-div#navigationBar li:not(:first-child) a img {
-   padding-left: 10px;
-   padding-top: 10px;
-   font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-   font-weight: 700;
-   font-size: 17px;
-   vertical-align: middle;
-   margin-top: 0px;
- }
+div#navigationBar li a p {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  vertical-align: middle;
+  margin-top: 0px;
+}
 
  div#navigationBar #reqBetaButton {
    -moz-border-radius: 5px;
