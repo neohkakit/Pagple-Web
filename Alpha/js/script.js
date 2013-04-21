@@ -34,7 +34,7 @@ $(document).ready(function () {
 
         var form = $(this),
             email = form.find('input[name="email-field"]').val(),
-            url = "http://pagple.com/" + form.attr('action');
+            url = form.attr('action');
         $.post(url, {
             email : "email-field"
         }, function (data) {

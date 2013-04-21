@@ -29,7 +29,7 @@
 	</head>
 	<body>
 		<?php
-			require_once 'database.php';
+			require_once 'php/database.php';
 			
 			// function for error_handler
 			function handleError($level, $msg, $file, $line, $context) {
