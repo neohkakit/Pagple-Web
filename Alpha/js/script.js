@@ -34,10 +34,9 @@ $(document).ready(function () {
 
         var form = $(this),
             email = form.find('input[name="email-field"]').val(),
-            url = form.attr('action');
-
+            url = "http://pagple.com/" + form.attr('action');
         $.post(url, {
-            "email-field": email
+            email : "email-field"
         }, function (data) {
             var atpos = email.indexOf("@");
             var dotpos = email.lastIndexOf(".");
