@@ -594,12 +594,13 @@ footer:hover {  opacity: 0.9 }
 }
 
 #email-respond-container{
-
   width: 387px;
-  height: auto;
+  height: 50px;
 }
 
-#email-respond-container p{
+#email-container p#success{
+  padding-top:12px;
+  text-shadow: 0 0 10px #fff;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
    font-weight: 300;
 }
@@ -613,7 +614,7 @@ footer:hover {  opacity: 0.9 }
 }
 
 #email-container.animateMargin {
-  display:none;
+  
 }
 
 #email-container {  display: none }

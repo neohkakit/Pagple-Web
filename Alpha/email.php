@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script>
-			// Web Intents Javascript Events are not available for custom Tweet Buttons
-			function popup(url) {
-				var msg = document.getElementById("textarea-msg").value;
-				myWindow = window.open(	'https://twitter.com/share?url=http%3A%2F%2Fpagple.com&text='+msg,
-										'Tweet',
-										'width=550, height=450' );
-				myWindow.focus();
-			}
-		</script>
-		
 		<style>
 			@-moz-document url-prefix() {
 				#email-respond-container {
@@ -65,9 +54,8 @@
 					
 					// show the email responds container
 					echo '
-						<div id="email-respond-container">
-							<p> You are now subscribed to Pagple!</p>
-						</div>
+							<p id="success"> You are now subscribed to Pagple!</p>
+
 					';
 					
 					// variables: email content & information
