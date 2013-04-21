@@ -36,36 +36,36 @@
             <!-- FLOATING NAVIGATION BAR -->
             <script type="text/javascript">
                 $(document).ready(function () {
-    thebackground();
-    $('div.macbook').fadeIn(1000); // works for all the browsers other than IE
-    $('div.macbook img').fadeIn(1000); // IE tweak
+                    thebackground();
+                    $('div.macbook').fadeIn(1000); // works for all the browsers other than IE
+                    $('div.macbook img').fadeIn(1000); // IE tweak
 
-    $("#email-form").submit(function (e) {
-        e.preventDefault(); // stop from summiting normally
+                    $("#email-form").submit(function (e) {
+                        e.preventDefault(); // stop from summiting normally
 
-        var form = $(this),
-            email = form.find('input[name="email-field"]').val(),
-            url = form.attr('action');
+                        var form = $(this),
+                            email = form.find('input[name="email-field"]').val(),
+                            url = form.attr('action');
 
-        $.post(url, {
-            "email-field": email
-        }, function (data) {
-            var atpos = email.indexOf("@");
-            var dotpos = email.lastIndexOf(".");
+                        $.post(url, {
+                            "email-field": email
+                        }, function (data) {
+                            var atpos = email.indexOf("@");
+                            var dotpos = email.lastIndexOf(".");
 
-            if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= email.length) {
-                $("#email-background").effect("shake", {
-                    times: 3
-                }, 800);
-                $("#email-background").css("box-shadow", "0 0 16px #E24549");
-            } else {
-                $("#email-container").empty().append(data);
-                $("#email-container").toggleClass("animateMargin");
-                
-            }
-        });
-    });
-}); // end document.ready()
+                            if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= email.length) {
+                                $("#email-background").effect("shake", {
+                                    times: 3
+                                }, 800);
+                                $("#email-background").css("box-shadow", "0 0 16px #E24549");
+                            } else {
+                                $("#email-container").empty().append(data);
+                                $("#email-container").toggleClass("animateMargin");
+
+                            }
+                        });
+                    });
+                }); // end document.ready()
             </script>
             <div id="navigationBar-anchor"></div>
             <div id="navigationBar">
@@ -98,13 +98,13 @@
                     <li>
                         <button id="reqBetaButton" onclick="toggle(event, 'reqBetaButton');">Request Beta</button>
                         <div id="email-container">
-                    <div id="email-background">
-                        <form action="email.php" method="post" id="email-form">
-                            <input type="text" id="email-field" name="email-field" placeholder="Enter email to get notified.">                
-                            <button id="email-button"></button>
-                        </form>
-                    </div>
-                </div>
+                            <div id="email-background">
+                                <form action="email.php" method="post" id="email-form">
+                                    <input type="text" id="email-field" name="email-field" placeholder="Enter email to get notified.">
+                                    <button id="email-button"></button>
+                                </form>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -180,16 +180,16 @@
                     <div id="separator">
                         <img src="img/separator.png" />
                     </div>
-                    <div style="width:80%;margin:0 auto;">
+                    <div id="profDiv" style="width:80%;margin:0 auto;">
                         <div id="profTextDiv"></div>
                         <div class="ao-item">
                             <div class="ao-preview">
                                 <input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
                                 <img src="img/elements/profilePage.jpg" />
-                                <div class="ao-annotations"> <span>Profile</span>
- <span>Message</span>
- <span>Content</span>
-
+                                <div class="ao-annotations"> 
+                                    <span>Profile</span>
+                                    <span>Message</span>
+                                    <span>Content</span>
                                 </div>
                             </div>
                         </div>
@@ -197,31 +197,31 @@
                     <div id="separator">
                         <img src="img/separator.png" />
                     </div>
-                    <div style="width:80%;margin:0 auto;">
+                    <div id="itemDiv" style="width:80%;margin:0 auto;">
                         <div id="itemTextDiv"></div>
                         <div class="ao-item">
                             <div class="ao-preview">
                                 <input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
                                 <img src="img/elements/itemPage.jpg" />
-                                <div class="ao-annotations"> <span>Profile Pic</span>
- <span>Pictures</span>
- <span>Options</span>
- <span>Information</span>
-
+                                <div class="ao-annotations"> 
+                                    <span>Information</span>
+                                    <span>Photo</span>
+                                    <span>Options</span>
                                 </div>
                             </div>
                         </div>
                         <div id="separator">
                             <img src="img/separator.png" />
                         </div>
-                        <div style="width:80%;margin:0 auto;">
+                        <div id="notifyDiv" style="width:80%;margin:0 auto;">
                             <div id="notifyTextDiv"></div>
                             <div class="ao-item">
                                 <div class="ao-preview">
                                     <input type="checkbox" id="ao-toggle" class="ao-toggle" name="ao-toggle" />
                                     <img src="img/elements/Notification.jpg" />
-                                    <div class="ao-annotations"> <span>Notification bar</span>
- <span>Icons</span>
+                                    <div class="ao-annotations"> 
+                                        <span>Notification bar</span>
+                                        <span>Icons</span>
 
                                     </div>
                                 </div>
