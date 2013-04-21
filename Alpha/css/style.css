@@ -25,6 +25,7 @@ body, html {
 
 div#cover {
    position: relative;
+   min-width:1382px;
    width: 100%;
    height: 800px;
    background: url('../img/cover/background.jpg') no-repeat center;
