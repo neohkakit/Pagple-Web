@@ -63,10 +63,10 @@
 					// instantiate object database
 					$db = new Database();
 					
-					show the email responds container
+					// show the email responds container
 					echo '
 						<div id="email-respond-container">
-							<p> You are now subscribed to Pagple\'s newsletter!</p>
+							<p> You are now subscribed to Pagple!</p>
 						</div>
 					';
 					
@@ -93,7 +93,7 @@
 											<a href='https://twitter.com/pagple' target='_blank'><img src='http://pagple.com/ico/twitter-ico.png' style='padding-right: 5px;'></a>
 										</td>
 										<td align='left' width='200px'>
-											<a href='http://instagram.com/pagple' target='_blank'><img src='http://pagple.com/ico/instagram.png' style='padding-left: 5px;'></a>
+											<a href='http://instagram.com/pagple' target='_blank'><img src='http://pagple.com/ico/instragram.png' style='padding-left: 5px;'></a>
 										</td>
 									</tr>
 								</table>
