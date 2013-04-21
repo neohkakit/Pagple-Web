@@ -34,6 +34,42 @@
                 </div>
             </div>
             <!-- FLOATING NAVIGATION BAR -->
+            <script type="text/javascript">
+                $(document).ready(function () {
+    thebackground();
+    $('div.macbook').fadeIn(1000); // works for all the browsers other than IE
+    $('div.macbook img').fadeIn(1000); // IE tweak
+    $("#email-form").submit(function (e) {
+        e.preventDefault(); // stop from summiting normally
+
+        var form = $(this),
+            email = form.find('input[name="email-field"]').val(),
+            url = form.attr('action');
+        $.post(url, { 
+                            "email-field": email
+                        }, function (data) {
+            var atpos = email.indexOf("@");
+            var dotpos = email.lastIndexOf(".");
+
+            if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= email.length) {
+                $("#email-background").effect("shake", {
+                    times: 3
+                }, 800);
+                $("#email-background").css("box-shadow", "0 0 16px #E24549");
+            } else {
+                $("#email-container").empty().append(data);
+                $("#email-container").effect("clip", {}, 500, function callback() {
+                    setTimeout(function () {
+                        $("#effect").removeAttr("style").hide().fadeIn();
+                    }, 1000);
+                });
+
+
+            }
+        });
+    });
+}); // end document.ready()
+            </script>
             <div id="navigationBar-anchor"></div>
             <div id="navigationBar">
                 <ul>
